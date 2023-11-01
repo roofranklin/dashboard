@@ -93,7 +93,7 @@ button:focus-visible {
     margin-top: 240px;
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 40px;
     line-height: 51px;
     letter-spacing: -0.02em;
     position: relative;
@@ -182,12 +182,14 @@ button:focus-visible {
     width: 158px;
     height: 44px;
     background-color: #14B67B;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     border-radius: 22px;
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 44px;
+    text-align: center;
+    text-decoration: none;
 }
 
 /******

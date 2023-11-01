@@ -1,0 +1,2182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Roosevelt Franklin">
+    <title>ChatGuru | Dashboard</title>
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+    <!-- ico-font-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/icofont.css">
+    <!-- Themify icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/themify.css">
+    <!-- Flag icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/flag-icon.css">
+    <!-- Feather icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/feather-icon.css">
+    <!-- Plugins css start-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/datatables.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/date-range-picker/flatpickr.min.css">
+    <!-- Plugins css Ends-->
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap.css">
+    <!-- App css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link id="color" rel="stylesheet" href="assets/css/color-1.css" media="screen">
+    <!-- Responsive css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+  </head>
+  <body> 
+    <div class="loader-wrapper"> 
+      <div class="loader loader-1">
+        <div class="loader-outter"></div>
+        <div class="loader-inner"></div>
+        <div class="loader-inner-1"></div>
+      </div>
+    </div>
+    <!-- loader ends-->
+    <!-- tap on top starts-->
+    <div class="tap-top"><i data-feather="chevrons-up"></i></div>
+    <!-- tap on tap ends-->
+    <!-- page-wrapper Start-->
+    <div class="page-wrapper compact-wrapper" id="pageWrapper">
+      <div class="page-header row">
+        <div class="header-logo-wrapper col-auto">
+          <div class="logo-wrapper">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 538 125" width="160" height="37">
+                <style>
+                  tspan {
+                    white-space: pre
+                  }
+        
+                  .shp0 {
+                    fill: #fff
+                  }
+        
+                  .shp1 {
+                    fill: #14b67b
+                  }
+                </style>
+                <path id="Chatguru " fill-rule="evenodd" class="shp0" d="M71.96 2.2C73.76 2.68 74.48 3.76 74.24 5.44L72.68 15.04C72.44 16.24 71.72 16.84 70.52 16.84L46.04 16.84C38 16.84 32.36 18.88 29.24 23.08C26.24 27.28 23.72 35.32 21.8 47.44C19.64 59.08 19.52 67.12 21.32 71.56C23.24 76 28.28 78.16 36.32 78.16L60.92 78.16C62.12 78.16 62.6 78.76 62.36 79.96L60.8 89.68C60.68 91.24 59.6 92.32 57.68 92.8C51.56 94 43.64 94.6 33.68 94.6C21.2 94.6 13.28 92.8 7.88 88.6C0.08 81.4 -0.64 69.52 2.72 47.44C5.6 29.08 10.16 16.72 16.4 10.24C22.76 3.64 33.44 0.4 48.68 0.4C57.92 0.4 65.72 1 71.96 2.2ZM101.84 1.12C103.04 1.12 103.52 1.72 103.4 3.04L99.68 26.8C103.4 26.44 107.6 26.2 112.52 26.2C135.44 26.2 140.6 30.52 136.88 55L131 92.08C130.76 93.4 130.04 94 128.84 94L114.56 94C113.48 94 113 93.4 113.12 92.08L118.28 59.56C121.04 42.52 119.24 41.56 108.2 41.56L97.4 41.56L89.36 92.08C89.24 93.4 88.64 94 87.32 94L72.92 94C71.84 94 71.36 93.4 71.48 92.08L85.64 3.04C85.76 1.72 86.48 1.12 87.68 1.12L101.84 1.12ZM202.16 31.24C205.76 34.6 206.96 39.76 205.88 46.84L199.28 88.36C198.92 90.16 197.84 91.48 196.04 92.08C188.36 93.76 179.12 94.6 168.32 94.6C158.24 94.6 153.2 94.12 148.4 91.36C143.72 88.48 142.52 83.08 143.96 73.84C145.28 66.16 148.04 61 152.24 58.24C156.56 55.48 163.04 54.16 171.56 54.16L186.8 54.16L187.52 49.84C188.48 44.08 185.36 41.56 177.56 41.56L155.96 41.56C154.76 41.56 154.28 40.84 154.52 39.52L156.08 29.92C156.2 28.84 156.92 28.24 158 28C164.36 26.8 171.68 26.2 179.96 26.2C191.12 26.2 198.56 27.88 202.16 31.24ZM185.12 65.68L171.2 65.68C165.08 65.68 162.56 67.72 161.72 72.88C160.76 78.52 163.04 80.2 170.72 80.2C175.76 80.2 179.84 79.84 182.96 79L185.12 65.68ZM245.6 8.2C246.92 7.84 247.64 8.56 247.28 10L244.52 27.16L255.56 27.16C256.88 27.16 257.48 27.76 257.36 28.96L255.8 38.56C255.56 39.76 254.84 40.36 253.52 40.36L242.36 40.36L237.32 73.12C236.48 78.04 237.92 79.24 243.32 79.24L248.36 79.24C249.68 79.24 250.28 79.84 250.16 81.04L248.48 91.24C248.24 92.56 247.52 93.28 246.2 93.52C242.48 94.24 239 94.6 235.76 94.6C230.48 94.72 225.8 94.48 222.32 92.56C219.08 90.28 217.28 86.92 218.48 79.12L224.6 40.36L217.64 40.36C216.32 40.36 215.72 39.76 215.96 38.56L217.52 28.96C217.64 27.76 218.48 27.16 219.8 27.16L226.76 27.16L228.8 13.84C229.04 12.76 229.76 12.16 230.84 11.92L245.6 8.2Z">
+                </path>
+                <path id="Chatguru " fill-rule="evenodd" class="shp1" d="M340.07 12.1C342.32 12.4 343.07 13.6 342.62 15.85L330.47 92.2C328.52 104.65 326.27 110.95 320.27 116.95C314.42 122.95 304.67 125.05 288.62 125.05C278.12 125.05 268.97 124.3 261.17 122.95C259.82 122.8 259.22 121.9 259.52 120.55L261.32 109.15C261.62 107.65 262.37 106.9 263.72 106.9L289.52 106.9C302.57 106.9 306.32 104.05 307.97 94L308.12 93.1C302.12 94.15 295.97 94.75 289.52 94.75C275.87 94.75 267.17 91.75 263.42 85.75C259.67 79.75 259.07 68.05 261.92 50.8C268.07 17.05 275.12 10.15 307.67 9.25C319.22 9.25 330.02 10.15 340.07 12.1ZM318.47 28.45L303.62 28.45C296.57 28.45 291.92 29.95 289.67 33.1C287.42 36.1 285.47 42.4 283.82 51.85C282.32 61.6 282.32 68.05 283.97 71.05C285.62 73.9 290.12 75.4 297.47 75.4C303.02 75.4 307.52 75.1 311.12 74.5L318.47 28.45ZM415.46 26.8C416.66 26.8 417.14 27.4 416.9 28.6L407.18 90.52C407.06 91.6 406.34 92.32 405.14 92.56C397.7 93.88 387.98 94.6 375.98 94.6C352.82 94.6 347.9 90.28 351.62 65.68L357.5 28.6C357.74 27.4 358.46 26.8 359.78 26.8L373.94 26.8C375.02 26.8 375.5 27.4 375.26 28.6L370.22 61.12C369.14 68.32 368.9 72.04 369.26 74.92C370.7 79.24 373.34 79.12 380.18 79.24L391.1 79.24L399.14 28.6C399.38 27.4 400.1 26.8 401.18 26.8L415.46 26.8ZM468.5 27.52C469.7 27.88 470.18 28.72 470.06 29.92L468.5 39.76C468.26 40.96 467.42 41.56 466.1 41.56L454.82 41.56C448.46 41.56 446.3 42.76 445.46 47.68L438.38 92.08C438.26 93.4 437.66 94 436.34 94L422.06 94C420.86 94 420.38 93.4 420.62 92.08L428.42 43.12C429.5 35.92 432.74 31 437.54 28.96C442.34 26.68 446.42 26.2 452.78 26.2C459.5 26.2 464.78 26.68 468.5 27.52ZM536.18 26.8C537.38 26.8 537.86 27.4 537.62 28.6L527.9 90.52C527.78 91.6 527.06 92.32 525.86 92.56C518.42 93.88 508.7 94.6 496.7 94.6C473.54 94.6 468.62 90.28 472.34 65.68L478.22 28.6C478.46 27.4 479.18 26.8 480.5 26.8L494.66 26.8C495.74 26.8 496.22 27.4 495.98 28.6L490.94 61.12C489.86 68.32 489.62 72.04 489.98 74.92C491.42 79.24 494.06 79.12 500.9 79.24L511.82 79.24L519.86 28.6C520.1 27.4 520.82 26.8 521.9 26.8L536.18 26.8Z">
+                </path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="col-4 col-xl-4 page-title">
+          <h4 class="f-w-700">Painel de Controle</h4>
+          <nav>
+            <ol class="breadcrumb justify-content-sm-start align-items-center mb-0">
+              <li class="breadcrumb-item"><a href="#"> <i data-feather="home"> </i></a></li>
+              <li class="breadcrumb-item f-w-400 active">Painel de Controle</li>
+            </ol>
+          </nav>
+        </div>
+        <!-- Page Header Start-->
+        <div class="header-wrapper col m-0">
+          <div class="row">
+            <form class="form-inline search-full col" action="#" method="get">
+              <div class="form-group w-100">
+                <div class="Typeahead Typeahead--twitterUsers">
+                  <div class="u-posRelative">
+                    <input class="demo-input Typeahead-input form-control-plaintext w-100" type="text" placeholder="Search Mofi .." name="q" title="" autofocus>
+                    <div class="spinner-border Typeahead-spinner" role="status"><span class="sr-only">Loading...</span></div><i class="close-search" data-feather="x"></i>
+                  </div>
+                  <div class="Typeahead-menu"></div>
+                </div>
+              </div>
+            </form>
+            <div class="header-logo-wrapper col-auto p-0">
+              <div class="logo-wrapper">
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 538 125" width="160" height="37">
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+            
+                      .shp0 {
+                        fill: #fff
+                      }
+            
+                      .shp1 {
+                        fill: #14b67b
+                      }
+                    </style>
+                    <path id="Chatguru " fill-rule="evenodd" class="shp0" d="M71.96 2.2C73.76 2.68 74.48 3.76 74.24 5.44L72.68 15.04C72.44 16.24 71.72 16.84 70.52 16.84L46.04 16.84C38 16.84 32.36 18.88 29.24 23.08C26.24 27.28 23.72 35.32 21.8 47.44C19.64 59.08 19.52 67.12 21.32 71.56C23.24 76 28.28 78.16 36.32 78.16L60.92 78.16C62.12 78.16 62.6 78.76 62.36 79.96L60.8 89.68C60.68 91.24 59.6 92.32 57.68 92.8C51.56 94 43.64 94.6 33.68 94.6C21.2 94.6 13.28 92.8 7.88 88.6C0.08 81.4 -0.64 69.52 2.72 47.44C5.6 29.08 10.16 16.72 16.4 10.24C22.76 3.64 33.44 0.4 48.68 0.4C57.92 0.4 65.72 1 71.96 2.2ZM101.84 1.12C103.04 1.12 103.52 1.72 103.4 3.04L99.68 26.8C103.4 26.44 107.6 26.2 112.52 26.2C135.44 26.2 140.6 30.52 136.88 55L131 92.08C130.76 93.4 130.04 94 128.84 94L114.56 94C113.48 94 113 93.4 113.12 92.08L118.28 59.56C121.04 42.52 119.24 41.56 108.2 41.56L97.4 41.56L89.36 92.08C89.24 93.4 88.64 94 87.32 94L72.92 94C71.84 94 71.36 93.4 71.48 92.08L85.64 3.04C85.76 1.72 86.48 1.12 87.68 1.12L101.84 1.12ZM202.16 31.24C205.76 34.6 206.96 39.76 205.88 46.84L199.28 88.36C198.92 90.16 197.84 91.48 196.04 92.08C188.36 93.76 179.12 94.6 168.32 94.6C158.24 94.6 153.2 94.12 148.4 91.36C143.72 88.48 142.52 83.08 143.96 73.84C145.28 66.16 148.04 61 152.24 58.24C156.56 55.48 163.04 54.16 171.56 54.16L186.8 54.16L187.52 49.84C188.48 44.08 185.36 41.56 177.56 41.56L155.96 41.56C154.76 41.56 154.28 40.84 154.52 39.52L156.08 29.92C156.2 28.84 156.92 28.24 158 28C164.36 26.8 171.68 26.2 179.96 26.2C191.12 26.2 198.56 27.88 202.16 31.24ZM185.12 65.68L171.2 65.68C165.08 65.68 162.56 67.72 161.72 72.88C160.76 78.52 163.04 80.2 170.72 80.2C175.76 80.2 179.84 79.84 182.96 79L185.12 65.68ZM245.6 8.2C246.92 7.84 247.64 8.56 247.28 10L244.52 27.16L255.56 27.16C256.88 27.16 257.48 27.76 257.36 28.96L255.8 38.56C255.56 39.76 254.84 40.36 253.52 40.36L242.36 40.36L237.32 73.12C236.48 78.04 237.92 79.24 243.32 79.24L248.36 79.24C249.68 79.24 250.28 79.84 250.16 81.04L248.48 91.24C248.24 92.56 247.52 93.28 246.2 93.52C242.48 94.24 239 94.6 235.76 94.6C230.48 94.72 225.8 94.48 222.32 92.56C219.08 90.28 217.28 86.92 218.48 79.12L224.6 40.36L217.64 40.36C216.32 40.36 215.72 39.76 215.96 38.56L217.52 28.96C217.64 27.76 218.48 27.16 219.8 27.16L226.76 27.16L228.8 13.84C229.04 12.76 229.76 12.16 230.84 11.92L245.6 8.2Z">
+                    </path>
+                    <path id="Chatguru " fill-rule="evenodd" class="shp1" d="M340.07 12.1C342.32 12.4 343.07 13.6 342.62 15.85L330.47 92.2C328.52 104.65 326.27 110.95 320.27 116.95C314.42 122.95 304.67 125.05 288.62 125.05C278.12 125.05 268.97 124.3 261.17 122.95C259.82 122.8 259.22 121.9 259.52 120.55L261.32 109.15C261.62 107.65 262.37 106.9 263.72 106.9L289.52 106.9C302.57 106.9 306.32 104.05 307.97 94L308.12 93.1C302.12 94.15 295.97 94.75 289.52 94.75C275.87 94.75 267.17 91.75 263.42 85.75C259.67 79.75 259.07 68.05 261.92 50.8C268.07 17.05 275.12 10.15 307.67 9.25C319.22 9.25 330.02 10.15 340.07 12.1ZM318.47 28.45L303.62 28.45C296.57 28.45 291.92 29.95 289.67 33.1C287.42 36.1 285.47 42.4 283.82 51.85C282.32 61.6 282.32 68.05 283.97 71.05C285.62 73.9 290.12 75.4 297.47 75.4C303.02 75.4 307.52 75.1 311.12 74.5L318.47 28.45ZM415.46 26.8C416.66 26.8 417.14 27.4 416.9 28.6L407.18 90.52C407.06 91.6 406.34 92.32 405.14 92.56C397.7 93.88 387.98 94.6 375.98 94.6C352.82 94.6 347.9 90.28 351.62 65.68L357.5 28.6C357.74 27.4 358.46 26.8 359.78 26.8L373.94 26.8C375.02 26.8 375.5 27.4 375.26 28.6L370.22 61.12C369.14 68.32 368.9 72.04 369.26 74.92C370.7 79.24 373.34 79.12 380.18 79.24L391.1 79.24L399.14 28.6C399.38 27.4 400.1 26.8 401.18 26.8L415.46 26.8ZM468.5 27.52C469.7 27.88 470.18 28.72 470.06 29.92L468.5 39.76C468.26 40.96 467.42 41.56 466.1 41.56L454.82 41.56C448.46 41.56 446.3 42.76 445.46 47.68L438.38 92.08C438.26 93.4 437.66 94 436.34 94L422.06 94C420.86 94 420.38 93.4 420.62 92.08L428.42 43.12C429.5 35.92 432.74 31 437.54 28.96C442.34 26.68 446.42 26.2 452.78 26.2C459.5 26.2 464.78 26.68 468.5 27.52ZM536.18 26.8C537.38 26.8 537.86 27.4 537.62 28.6L527.9 90.52C527.78 91.6 527.06 92.32 525.86 92.56C518.42 93.88 508.7 94.6 496.7 94.6C473.54 94.6 468.62 90.28 472.34 65.68L478.22 28.6C478.46 27.4 479.18 26.8 480.5 26.8L494.66 26.8C495.74 26.8 496.22 27.4 495.98 28.6L490.94 61.12C489.86 68.32 489.62 72.04 489.98 74.92C491.42 79.24 494.06 79.12 500.9 79.24L511.82 79.24L519.86 28.6C520.1 27.4 520.82 26.8 521.9 26.8L536.18 26.8Z">
+                    </path>
+                  </svg>
+                </a>
+              </div>
+              <div class="toggle-sidebar">
+                <i class="icofont icofont-brand-apple mx-1"></i>
+              </div>
+            </div>
+            <div class="nav-right col-xxl-8 col-xl-6 col-md-7 col-8 pull-right right-header p-0 ms-auto">
+              <ul class="nav-menus">
+                
+                <li>
+                  <div class="form-group w-100">
+                    <div class="Typeahead Typeahead--twitterUsers">
+                      <div class="u-posRelative d-flex align-items-center">
+                        <input class="demo-input py-0 Typeahead-input form-control-plaintext w-100" type="text" placeholder="Search Mofi .." name="q" title="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="onhover-dropdown bg-secondary">
+                  <div class="notification-box">
+                    <i class="icofont icofont-brand-whatsapp"></i>
+                  </div>
+                  <div class="onhover-show-div notification-dropdown">
+                    <h5 class="f-18 f-w-600 mb-0 dropdown-title">Detalhes</h5>
+                    <ul class="notification-box">
+                      <li class="d-flex"> 
+                        <div class="flex-grow-1">
+                          <a href="#">
+                            <h6>0000000</h6></a>
+                          <p>Capturar QR-Code</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="onhover-dropdown bg-success">
+                  <div class="notification-box">
+                    <i class="icofont icofont-brand-whatsapp"></i>
+                  </div>
+                  <div class="onhover-show-div notification-dropdown">
+                    <h5 class="f-18 f-w-600 mb-0 dropdown-title">Detalhes</h5>
+                    <ul class="notification-box">
+                      <li class="d-flex"> 
+                        <div class="flex-grow-1">
+                          <a href="#">
+                            <h6>12105987543</h6></a>
+                          <p>Conectado</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="onhover-dropdown bg-success">
+                  <div class="notification-box">
+                    <i class="icofont icofont-brand-whatsapp"></i>
+                  </div>
+                  <div class="onhover-show-div notification-dropdown">
+                    <h5 class="f-18 f-w-600 mb-0 dropdown-title">Detalhes</h5>
+                    <ul class="notification-box">
+                      <li class="d-flex"> 
+                        <div class="flex-grow-1">
+                          <a href="#">
+                            <h6>15853584023</h6></a>
+                          <p>Conectado</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="onhover-dropdown">
+                  <i class="icofont icofont-notification"></i>
+                  <span class="badge rounded-pill badge-danger">4 </span>
+                  <div class="onhover-show-div notification-dropdown">
+                    <h5 class="f-18 f-w-600 mb-0 dropdown-title">Messages             </h5>
+                    <ul class="messages">
+                      <li class="d-flex b-light1-primary gap-2"> 
+                        <div class="flex-shrink-0"><img src="assets/images/dashboard-2/user/1.png" alt="Graph"></div>
+                        <div class="flex-grow-1"> <a href="private-chat.html">
+                            <h6 class="font-primary f-w-600">Hackett Yessenia</h6></a>
+                          <p>Hello Miss...&#128522;</p>
+                        </div><span>10 min.</span>
+                      </li>
+                      <li class="d-flex b-light1-secondary gap-2"> 
+                        <div class="flex-shrink-0"><img src="assets/images/dashboard-2/user/2.png" alt="Graph"></div>
+                        <div class="flex-grow-1"> <a href="private-chat.html">
+                            <h6 class="font-secondary f-w-600">schneider Adan</h6></a>
+                          <p>Wishing You a Happy Birthday Dear..  🥳&#127882;</p>
+                        </div><span>25 min.</span>
+                      </li>
+                      <li class="d-flex b-light1-success gap-2"> 
+                        <div class="flex-shrink-0"><img src="assets/images/dashboard-2/user/3.png" alt="Graph"></div>
+                        <div class="flex-grow-1"> <a href="private-chat.html">
+                            <h6 class="font-success f-w-600">Mahdi Gholizadeh</h6></a>
+                          <p>Hello Dear!! This Theme Is Very beautiful</p>
+                        </div><span>1 hours</span>
+                      </li>
+                      <li><a class="f-w-700" href="email-application.html">Check all</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="mode">
+                    <i class="icofont icofont-grayscale mx-1"></i>
+                  </div>
+                </li>
+                <li class="onhover-dropdown">
+                  <div class="notification-box">
+                    <i class="icofont icofont-publish mx-1"></i>
+                    <span class="badge rounded-pill badge-info">3 </span>
+                  </div>
+                  <div class="onhover-show-div notification-dropdown">
+                    <h5 class="f-18 f-w-600 mb-0 dropdown-title">Messages             </h5>
+                    <ul class="messages">
+                      <li class="d-flex b-light1-primary gap-2"> 
+                        <div class="flex-shrink-0"><img src="assets/images/dashboard-2/user/1.png" alt="Graph"></div>
+                        <div class="flex-grow-1"> <a href="private-chat.html">
+                            <h6 class="font-primary f-w-600">Hackett Yessenia</h6></a>
+                          <p>Hello Miss...&#128522;</p>
+                        </div><span>10 min.</span>
+                      </li>
+                      <li class="d-flex b-light1-secondary gap-2"> 
+                        <div class="flex-shrink-0"><img src="assets/images/dashboard-2/user/2.png" alt="Graph"></div>
+                        <div class="flex-grow-1"> <a href="private-chat.html">
+                            <h6 class="font-secondary f-w-600">schneider Adan</h6></a>
+                          <p>Wishing You a Happy Birthday Dear..  🥳&#127882;</p>
+                        </div><span>25 min.</span>
+                      </li>
+                      <li class="d-flex b-light1-success gap-2"> 
+                        <div class="flex-shrink-0"><img src="assets/images/dashboard-2/user/3.png" alt="Graph"></div>
+                        <div class="flex-grow-1"> <a href="private-chat.html">
+                            <h6 class="font-success f-w-600">Mahdi Gholizadeh</h6></a>
+                          <p>Hello Dear!! This Theme Is Very beautiful</p>
+                        </div><span>1 hours</span>
+                      </li>
+                      <li><a class="f-w-700" href="email-application.html">Check all</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <i class="icofont icofont-audio"></i>
+                </li>
+                <li class="profile-nav onhover-dropdown px-0 py-0">
+                  <div class="d-flex profile-media align-items-center"><img class="img-30" src="assets/images/dashboard/profile.png" alt="">
+                    <div class="flex-grow-1"><span>DEV Chatguru</span>
+                      <p class="mb-0 font-outfit">Homologação  <i class="fa fa-angle-down"></i></p>
+                    </div>
+                  </div>
+                  <ul class="profile-dropdown onhover-show-div">
+                    <li><a href="index.html"><i data-feather="log-in"> </i><span>Logout</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <script class="result-template" type="text/x-handlebars-template">
+              <div class="ProfileCard u-cf">                        
+              <div class="ProfileCard-avatar"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-airplay m-0"><path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"></path><polygon points="12 15 17 21 7 21 12 15"></polygon></svg></div>
+              <div class="ProfileCard-details">
+              <div class="ProfileCard-realName">{{name}}</div>
+              </div>
+              </div>
+            </script>
+            <script class="empty-template" type="text/x-handlebars-template"><div class="EmptyMessage">Your search turned up 0 results. This most likely means the backend is down, yikes!</div></script>
+          </div>
+        </div>
+        <!-- Page Header Ends                              -->
+      </div>
+      <!-- Page Body Start-->
+      <div class="page-body-wrapper">
+        <!-- Page Sidebar Start-->
+        <div class="sidebar-wrapper" data-layout="stroke-svg">
+          <div>
+            <div class="logo-wrapper">
+              <a href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 538 125" width="140" height="32">
+                  <style>
+                    tspan {
+                      white-space: pre
+                    }
+          
+                    .shp0 {
+                      fill: #fff
+                    }
+          
+                    .shp1 {
+                      fill: #14b67b
+                    }
+                  </style>
+                  <path id="Chatguru " fill-rule="evenodd" class="shp0" d="M71.96 2.2C73.76 2.68 74.48 3.76 74.24 5.44L72.68 15.04C72.44 16.24 71.72 16.84 70.52 16.84L46.04 16.84C38 16.84 32.36 18.88 29.24 23.08C26.24 27.28 23.72 35.32 21.8 47.44C19.64 59.08 19.52 67.12 21.32 71.56C23.24 76 28.28 78.16 36.32 78.16L60.92 78.16C62.12 78.16 62.6 78.76 62.36 79.96L60.8 89.68C60.68 91.24 59.6 92.32 57.68 92.8C51.56 94 43.64 94.6 33.68 94.6C21.2 94.6 13.28 92.8 7.88 88.6C0.08 81.4 -0.64 69.52 2.72 47.44C5.6 29.08 10.16 16.72 16.4 10.24C22.76 3.64 33.44 0.4 48.68 0.4C57.92 0.4 65.72 1 71.96 2.2ZM101.84 1.12C103.04 1.12 103.52 1.72 103.4 3.04L99.68 26.8C103.4 26.44 107.6 26.2 112.52 26.2C135.44 26.2 140.6 30.52 136.88 55L131 92.08C130.76 93.4 130.04 94 128.84 94L114.56 94C113.48 94 113 93.4 113.12 92.08L118.28 59.56C121.04 42.52 119.24 41.56 108.2 41.56L97.4 41.56L89.36 92.08C89.24 93.4 88.64 94 87.32 94L72.92 94C71.84 94 71.36 93.4 71.48 92.08L85.64 3.04C85.76 1.72 86.48 1.12 87.68 1.12L101.84 1.12ZM202.16 31.24C205.76 34.6 206.96 39.76 205.88 46.84L199.28 88.36C198.92 90.16 197.84 91.48 196.04 92.08C188.36 93.76 179.12 94.6 168.32 94.6C158.24 94.6 153.2 94.12 148.4 91.36C143.72 88.48 142.52 83.08 143.96 73.84C145.28 66.16 148.04 61 152.24 58.24C156.56 55.48 163.04 54.16 171.56 54.16L186.8 54.16L187.52 49.84C188.48 44.08 185.36 41.56 177.56 41.56L155.96 41.56C154.76 41.56 154.28 40.84 154.52 39.52L156.08 29.92C156.2 28.84 156.92 28.24 158 28C164.36 26.8 171.68 26.2 179.96 26.2C191.12 26.2 198.56 27.88 202.16 31.24ZM185.12 65.68L171.2 65.68C165.08 65.68 162.56 67.72 161.72 72.88C160.76 78.52 163.04 80.2 170.72 80.2C175.76 80.2 179.84 79.84 182.96 79L185.12 65.68ZM245.6 8.2C246.92 7.84 247.64 8.56 247.28 10L244.52 27.16L255.56 27.16C256.88 27.16 257.48 27.76 257.36 28.96L255.8 38.56C255.56 39.76 254.84 40.36 253.52 40.36L242.36 40.36L237.32 73.12C236.48 78.04 237.92 79.24 243.32 79.24L248.36 79.24C249.68 79.24 250.28 79.84 250.16 81.04L248.48 91.24C248.24 92.56 247.52 93.28 246.2 93.52C242.48 94.24 239 94.6 235.76 94.6C230.48 94.72 225.8 94.48 222.32 92.56C219.08 90.28 217.28 86.92 218.48 79.12L224.6 40.36L217.64 40.36C216.32 40.36 215.72 39.76 215.96 38.56L217.52 28.96C217.64 27.76 218.48 27.16 219.8 27.16L226.76 27.16L228.8 13.84C229.04 12.76 229.76 12.16 230.84 11.92L245.6 8.2Z">
+                  </path>
+                  <path id="Chatguru " fill-rule="evenodd" class="shp1" d="M340.07 12.1C342.32 12.4 343.07 13.6 342.62 15.85L330.47 92.2C328.52 104.65 326.27 110.95 320.27 116.95C314.42 122.95 304.67 125.05 288.62 125.05C278.12 125.05 268.97 124.3 261.17 122.95C259.82 122.8 259.22 121.9 259.52 120.55L261.32 109.15C261.62 107.65 262.37 106.9 263.72 106.9L289.52 106.9C302.57 106.9 306.32 104.05 307.97 94L308.12 93.1C302.12 94.15 295.97 94.75 289.52 94.75C275.87 94.75 267.17 91.75 263.42 85.75C259.67 79.75 259.07 68.05 261.92 50.8C268.07 17.05 275.12 10.15 307.67 9.25C319.22 9.25 330.02 10.15 340.07 12.1ZM318.47 28.45L303.62 28.45C296.57 28.45 291.92 29.95 289.67 33.1C287.42 36.1 285.47 42.4 283.82 51.85C282.32 61.6 282.32 68.05 283.97 71.05C285.62 73.9 290.12 75.4 297.47 75.4C303.02 75.4 307.52 75.1 311.12 74.5L318.47 28.45ZM415.46 26.8C416.66 26.8 417.14 27.4 416.9 28.6L407.18 90.52C407.06 91.6 406.34 92.32 405.14 92.56C397.7 93.88 387.98 94.6 375.98 94.6C352.82 94.6 347.9 90.28 351.62 65.68L357.5 28.6C357.74 27.4 358.46 26.8 359.78 26.8L373.94 26.8C375.02 26.8 375.5 27.4 375.26 28.6L370.22 61.12C369.14 68.32 368.9 72.04 369.26 74.92C370.7 79.24 373.34 79.12 380.18 79.24L391.1 79.24L399.14 28.6C399.38 27.4 400.1 26.8 401.18 26.8L415.46 26.8ZM468.5 27.52C469.7 27.88 470.18 28.72 470.06 29.92L468.5 39.76C468.26 40.96 467.42 41.56 466.1 41.56L454.82 41.56C448.46 41.56 446.3 42.76 445.46 47.68L438.38 92.08C438.26 93.4 437.66 94 436.34 94L422.06 94C420.86 94 420.38 93.4 420.62 92.08L428.42 43.12C429.5 35.92 432.74 31 437.54 28.96C442.34 26.68 446.42 26.2 452.78 26.2C459.5 26.2 464.78 26.68 468.5 27.52ZM536.18 26.8C537.38 26.8 537.86 27.4 537.62 28.6L527.9 90.52C527.78 91.6 527.06 92.32 525.86 92.56C518.42 93.88 508.7 94.6 496.7 94.6C473.54 94.6 468.62 90.28 472.34 65.68L478.22 28.6C478.46 27.4 479.18 26.8 480.5 26.8L494.66 26.8C495.74 26.8 496.22 27.4 495.98 28.6L490.94 61.12C489.86 68.32 489.62 72.04 489.98 74.92C491.42 79.24 494.06 79.12 500.9 79.24L511.82 79.24L519.86 28.6C520.1 27.4 520.82 26.8 521.9 26.8L536.18 26.8Z">
+                  </path>
+                </svg>
+              </a>
+              <div class="back-btn"><i class="fa fa-angle-left"></i></div>
+              <div class="toggle-sidebar">
+                <svg class="stroke-icon sidebar-toggle status_toggle middle">
+                  <use href="assets/svg/icon-sprite.svg#toggle-icon"></use>
+                </svg>
+                <svg class="fill-icon sidebar-toggle status_toggle middle">
+                  <use href="assets/svg/icon-sprite.svg#fill-toggle-icon"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="logo-icon-wrapper"><a href="index.html"><img class="img-fluid" src="assets/images/logo/logo-icon.png" alt=""></a></div>
+            <nav class="sidebar-main">
+              <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
+              <div id="sidebar-menu">
+                <ul class="sidebar-links" id="simple-bar">
+                  <li class="back-btn"><a href="index.html"><img class="img-fluid" src="assets/images/logo/logo-icon.png" alt=""></a>
+                    <div class="mobile-back text-end"><span>Back</span><i class="fa fa-angle-right ps-2" aria-hidden="true"></i></div>
+                  </li>
+                  <li class="pin-title sidebar-main-title">
+                    <div> 
+                      <h6>Pinned</h6>
+                    </div>
+                  </li>
+                  <li class="sidebar-main-title">
+                    <div>
+                      <h6 class="lan-1">General</h6>
+                    </div>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-home"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-home"></use>
+                      </svg><span class="lan-3">Dashboard          </span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a class="lan-4" href="index.html">Default</a></li>
+                      <li><a class="lan-5" href="dashboard-02.html">Project</a></li>
+                      <li><a href="dashboard-03.html">Ecommerce</a></li>
+                      <li><a href="dashboard-04.html">Education</a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-widget"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-widget"></use>
+                      </svg><span class="lan-6">Widgets</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="general-widget.html">General</a></li>
+                      <li><a href="chart-widget.html">Chart</a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-layout"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-layout"></use>
+                      </svg><span class="lan-7">Page layout</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="box-layout.html">Boxed</a></li>
+                      <li><a href="layout-rtl.html">RTL</a></li>
+                      <li><a href="layout-dark.html">Dark Layout</a></li>
+                      <li><a href="hide-on-scroll.html">Hide Nav Scroll</a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-main-title">
+                    <div>
+                      <h6 class="lan-8">Applications</h6>
+                    </div>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack">    </i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-project"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-project"></use>
+                      </svg><span>Project           </span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="projects.html">Project List</a></li>
+                      <li><a href="projectcreate.html">Create new</a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="file-manager.html">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-file"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-file"></use>
+                      </svg><span>File manager</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack">        </i><a class="sidebar-link sidebar-title link-nav" href="kanban.html">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-board"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-board"></use>
+                      </svg><span>kanban Board</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-ecommerce"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-ecommerce"></use>
+                      </svg><span>Ecommerce</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="add-product.html">Add Product</a></li>
+                      <li><a href="product.html">Product</a></li>
+                      <li><a href="product-page.html">Product page</a></li>
+                      <li><a href="list-products.html">Product list</a></li>
+                      <li><a href="payment-details.html">Payment Details</a></li>
+                      <li><a href="order-history.html">Order History</a></li>
+                      <li><a class="submenu-title" href="javascript:void(0)">Invoices<span class="sub-arrow"><i class="fa fa-angle-right"></i></span></a>
+                        <ul class="nav-sub-childmenu submenu-content">
+                          <li><a href="invoice-1.html">Invoice-1</a></li>
+                          <li><a href="invoice-2.html">Invoice-2</a></li>
+                          <li><a href="invoice-3.html">Invoice-3</a></li>
+                          <li><a href="invoice-4.html">Invoice-4</a></li>
+                          <li> <a href="invoice-5.html">Invoice-5</a></li>
+                          <li><a href="invoice-template.html">Invoice-6</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="cart.html">Cart</a></li>
+                      <li><a href="list-wish.html">Wishlist</a></li>
+                      <li><a href="checkout.html">Checkout</a></li>
+                      <li><a href="pricing.html">Pricing          </a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="letter-box.html">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-email"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-email"> </use>
+                      </svg><span>Letter Box</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-chat"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-chat"></use>
+                      </svg><span>Chat</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="private-chat.html">Private Chat</a></li>
+                      <li><a href="group-chat.html">Group Chat</a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-user"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-user"></use>
+                      </svg><span>Users</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="user-profile.html">Users Profile</a></li>
+                      <li><a href="edit-profile.html">Users Edit</a></li>
+                      <li><a href="user-cards.html">Users Cards</a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="bookmark.html">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-bookmark"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-bookmark"> </use>
+                      </svg><span>Bookmarks</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="contacts.html">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-contact"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-contact"> </use>
+                      </svg><span>Contacts</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="task.html">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-task"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-task"> </use>
+                      </svg><span>Tasks</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="calendar-basic.html">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-calendar"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-calender"></use>
+                      </svg><span>Calendar</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="social-app.html">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-social"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-social"> </use>
+                      </svg><span>Social App</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="to-do.html">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-to-do"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-to-do"> </use>
+                      </svg><span>To-Do</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="search.html">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-search"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-search"> </use>
+                      </svg><span>Search Result</span></a></li>
+                  <li class="sidebar-main-title">
+                    <div>
+                      <h6>Forms & Table</h6>
+                    </div>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-form"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-form"> </use>
+                      </svg><span>Forms</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a class="submenu-title" href="javascript:void(0)">Form Controls<span class="sub-arrow"><i class="fa fa-angle-right"></i></span></a>
+                        <ul class="nav-sub-childmenu submenu-content">
+                          <li><a href="form-validation.html">Form Validation</a></li>
+                          <li><a href="base-input.html">Base Inputs</a></li>
+                          <li><a href="radio-checkbox-control.html">Checkbox & Radio</a></li>
+                          <li><a href="input-group.html">Input Groups</a></li>
+                          <li> <a href="input-mask.html">Input Mask</a></li>
+                          <li><a href="megaoptions.html">Mega Options</a></li>
+                        </ul>
+                      </li>
+                      <li><a class="submenu-title" href="javascript:void(0)">Form Widgets<span class="sub-arrow"><i class="fa fa-angle-right"></i></span></a>
+                        <ul class="nav-sub-childmenu submenu-content">
+                          <li><a href="datepicker.html">Datepicker</a></li>
+                          <li><a href="touchspin.html">Touchspin</a></li>
+                          <li><a href="select2.html">Select2</a></li>
+                          <li><a href="switch.html">Switch</a></li>
+                          <li><a href="typeahead.html">Typeahead</a></li>
+                          <li><a href="clipboard.html">Clipboard</a></li>
+                        </ul>
+                      </li>
+                      <li><a class="submenu-title" href="javascript:void(0)">Form layout<span class="sub-arrow"><i class="fa fa-angle-right"></i></span></a>
+                        <ul class="nav-sub-childmenu submenu-content">
+                          <li><a href="form-wizard.html">Form Wizard 1</a></li>
+                          <li><a href="form-wizard-two.html">Form Wizard 2</a></li>
+                          <li><a href="two-factor.html">Two Factor</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-table"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-table"></use>
+                      </svg><span>Tables</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a class="submenu-title" href="javascript:void(0)">Bootstrap Tables<span class="sub-arrow"><i class="fa fa-angle-right"></i></span></a>
+                        <ul class="nav-sub-childmenu submenu-content">
+                          <li><a href="bootstrap-basic-table.html">Basic Tables</a></li>
+                          <li><a href="table-components.html">Table components</a></li>
+                        </ul>
+                      </li>
+                      <li><a class="submenu-title" href="javascript:void(0)">Data Tables<span class="sub-arrow"><i class="fa fa-angle-right"></i></span></a>
+                        <ul class="nav-sub-childmenu submenu-content">
+                          <li><a href="datatable-basic-init.html">Basic Init</a></li>
+                          <li> <a href="datatable-advance.html">Advance Init </a></li>
+                          <li><a href="datatable-API.html">API</a></li>
+                          <li><a href="datatable-data-source.html">Data Sources</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="datatable-ext-autofill.html">Ex. Data Tables</a></li>
+                      <li><a href="jsgrid-table.html">Js Grid Table        </a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-main-title">
+                    <div>
+                      <h6>Components</h6>
+                    </div>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-ui-kits"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-ui-kits"></use>
+                      </svg><span>Ui Kits</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="typography.html">Typography</a></li>
+                      <li><a href="avatars.html">Avatars</a></li>
+                      <li><a href="helper-classes.html">helper classes</a></li>
+                      <li><a href="grid.html">Grid</a></li>
+                      <li><a href="tag-pills.html">Tag & pills</a></li>
+                      <li><a href="progress-bar.html">Progress</a></li>
+                      <li><a href="modal.html">Modal</a></li>
+                      <li><a href="alert.html">Alert</a></li>
+                      <li><a href="popover.html">Popover</a></li>
+                      <li><a href="tooltip.html">Tooltip</a></li>
+                      <li><a href="dropdown.html">Dropdown</a></li>
+                      <li><a href="according.html">Accordion</a></li>
+                      <li><a href="tab-bootstrap.html">Tabs</a></li>
+                      <li><a href="list.html">Lists</a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-bonus-kit"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-bonus-kit"></use>
+                      </svg><span>Bonus Ui</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="scrollable.html">Scrollable</a></li>
+                      <li><a href="tree.html">Tree view</a></li>
+                      <li><a href="toasts.html">Toasts</a></li>
+                      <li><a href="rating.html">Rating</a></li>
+                      <li><a href="dropzone.html">dropzone</a></li>
+                      <li><a href="tour.html">Tour</a></li>
+                      <li><a href="sweet-alert2.html">SweetAlert2</a></li>
+                      <li><a href="modal-animated.html">Animated Modal</a></li>
+                      <li><a href="owl-carousel.html">Owl Carousel</a></li>
+                      <li><a href="ribbons.html">Ribbons</a></li>
+                      <li><a href="pagination.html">Pagination</a></li>
+                      <li><a href="breadcrumb.html">Breadcrumb</a></li>
+                      <li><a href="range-slider.html">Range Slider</a></li>
+                      <li><a href="image-cropper.html">Image cropper</a></li>
+                      <li><a href="basic-card.html">Basic Card</a></li>
+                      <li><a href="creative-card.html">Creative Card</a></li>
+                      <li><a href="dragable-card.html">Draggable Card</a></li>
+                      <li><a href="timeline-v-1.html">Timeline </a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-animation"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-animation"></use>
+                      </svg><span>Animation</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="animate.html">Animate</a></li>
+                      <li><a href="scroll-reval.html">Scroll Reveal</a></li>
+                      <li><a href="AOS.html">AOS animation</a></li>
+                      <li><a href="tilt.html">Tilt Animation</a></li>
+                      <li><a href="wow.html">Wow Animation</a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-icons"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-icons"></use>
+                      </svg><span>Icons</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="flag-icon.html">Flag icon</a></li>
+                      <li><a href="font-awesome.html">Fontawesome Icon</a></li>
+                      <li><a href="ico-icon.html">Ico Icon</a></li>
+                      <li><a href="themify-icon.html">Themify Icon</a></li>
+                      <li><a href="feather-icon.html">Feather icon</a></li>
+                      <li><a href="whether-icon.html">Whether Icon</a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-button"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-button"></use>
+                      </svg><span>Buttons</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="buttons.html">Default Style</a></li>
+                      <li><a href="buttons-flat.html">Flat Style</a></li>
+                      <li><a href="buttons-edge.html">Edge Style</a></li>
+                      <li><a href="raised-button.html">Raised Style</a></li>
+                      <li><a href="button-group.html">Button Group</a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-charts"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-charts"></use>
+                      </svg><span>Charts</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="echarts.html">Echarts</a></li>
+                      <li><a href="chart-apex.html">Apex Chart</a></li>
+                      <li><a href="chart-google.html">Google Chart</a></li>
+                      <li><a href="chart-sparkline.html">Sparkline chart</a></li>
+                      <li><a href="chart-flot.html">Flot Chart</a></li>
+                      <li><a href="chart-knob.html">Knob Chart</a></li>
+                      <li><a href="chart-morris.html">Morris Chart</a></li>
+                      <li><a href="chartjs.html">Chatjs Chart</a></li>
+                      <li><a href="chartist.html">Chartist Chart</a></li>
+                      <li><a href="chart-peity.html">Peity Chart</a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-main-title">
+                    <div>
+                      <h6>Pages</h6>
+                    </div>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="landing-page.html">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-landing-page"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-landing-page"></use>
+                      </svg><span>Landing page</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="sample-page.html">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-sample-page"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-sample-page"></use>
+                      </svg><span>Sample page</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="internationalization.html">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-internationalization"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-internationalization"></use>
+                      </svg><span>Internationalization</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="../starter-kit/index.html" target="_blank">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-starter-kit"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-starter-kit"></use>
+                      </svg><span>Starter kit</span></a></li>
+                  <li class="mega-menu sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-others"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-others"></use>
+                      </svg><span>Others</span></a>
+                    <div class="mega-menu-container menu-content">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col mega-box">
+                            <div class="link-section">
+                              <div class="submenu-title">
+                                <h5>Error Page</h5>
+                              </div>
+                              <ul class="submenu-content opensubmegamenu">
+                                <li><a href="error-400.html">Error 400</a></li>
+                                <li><a href="error-401.html">Error 401</a></li>
+                                <li><a href="error-403.html">Error 403</a></li>
+                                <li><a href="error-404.html">Error 404</a></li>
+                                <li><a href="error-500.html">Error 500</a></li>
+                                <li><a href="error-503.html">Error 503</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col mega-box">
+                            <div class="link-section">
+                              <div class="submenu-title">
+                                <h5> Authentication</h5>
+                              </div>
+                              <ul class="submenu-content opensubmegamenu">
+                                <li><a href="login.html" target="_blank">Login Simple</a></li>
+                                <li><a href="login_one.html" target="_blank">Login with bg image</a></li>
+                                <li><a href="login_two.html" target="_blank">Login with image two                      </a></li>
+                                <li><a href="login-bs-validation.html" target="_blank">Login With validation</a></li>
+                                <li><a href="login-bs-tt-validation.html" target="_blank">Login with tooltip</a></li>
+                                <li><a href="login-sa-validation.html" target="_blank">Login with sweetalert</a></li>
+                                <li><a href="sign-up.html" target="_blank">Register Simple</a></li>
+                                <li><a href="sign-up-one.html" target="_blank">Register with Bg Image                              </a></li>
+                                <li><a href="sign-up-two.html" target="_blank">Register with image two</a></li>
+                                <li><a href="sign-up-wizard.html" target="_blank">Register wizard</a></li>
+                                <li><a href="unlock.html">Unlock User</a></li>
+                                <li><a href="forget-password.html">Forget Password</a></li>
+                                <li><a href="reset-password.html">Reset Password</a></li>
+                                <li><a href="maintenance.html">Maintenance</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col mega-box">
+                            <div class="link-section">
+                              <div class="submenu-title">
+                                <h5>Coming Soon</h5>
+                              </div>
+                              <ul class="submenu-content opensubmegamenu">
+                                <li><a href="comingsoon.html">Coming Simple</a></li>
+                                <li><a href="comingsoon-bg-video.html">Coming with Bg video</a></li>
+                                <li><a href="comingsoon-bg-img.html">Coming with Bg Image</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col mega-box">
+                            <div class="link-section">
+                              <div class="submenu-title">
+                                <h5>Email templates</h5>
+                              </div>
+                              <ul class="submenu-content opensubmegamenu">
+                                <li><a href="basic-template.html">Basic Email</a></li>
+                                <li><a href="email-header.html">Basic With Header</a></li>
+                                <li><a href="template-email.html">Ecomerce Template</a></li>
+                                <li><a href="template-email-2.html">Email Template 2</a></li>
+                                <li><a href="ecommerce-templates.html">Ecommerce Email</a></li>
+                                <li><a href="email-order-success.html">Order Success</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="sidebar-main-title">
+                    <div>
+                      <h6>Miscellaneous</h6>
+                    </div>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-gallery"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-gallery"></use>
+                      </svg><span>Gallery</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="gallery.html">Gallery Grid</a></li>
+                      <li><a href="gallery-with-description.html">Gallery Grid Desc</a></li>
+                      <li><a href="gallery-masonry.html">Masonry Gallery</a></li>
+                      <li><a href="masonry-gallery-with-disc.html">Masonry with Desc</a></li>
+                      <li><a href="gallery-hover.html">Hover Effects</a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-blog"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-blog"></use>
+                      </svg><span>Blog</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="blog.html">Blog Details</a></li>
+                      <li><a href="blog-single.html">Blog Single</a></li>
+                      <li><a href="add-post.html">Add Post</a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="faq.html">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-faq"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-faq"></use>
+                      </svg><span>FAQ</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-job-search"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-job-search"></use>
+                      </svg><span>Job Search</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="job-cards-view.html">Cards view</a></li>
+                      <li><a href="job-list-view.html">List View</a></li>
+                      <li><a href="job-details.html">Job Details</a></li>
+                      <li><a href="job-apply.html">Apply</a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-learning"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-learning"></use>
+                      </svg><span>Learning</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="learning-list-view.html">Learning List</a></li>
+                      <li><a href="learning-detailed.html">Detailed Course</a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-maps"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-maps"></use>
+                      </svg><span>Maps</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="map-js.html">Maps JS</a></li>
+                      <li><a href="vector-map.html">Vector Maps</a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-editors"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-editors"></use>
+                      </svg><span>Editors</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a href="summernote.html">Summer Note</a></li>
+                      <li><a href="ckeditor.html">CK editor</a></li>
+                      <li><a href="simple-MDE.html">MDE editor</a></li>
+                      <li><a href="ace-code-editor.html">ACE code editor </a></li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="knowledgebase.html">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-knowledgebase"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-knowledgebase"></use>
+                      </svg><span>Knowledgebase</span></a></li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="support-ticket.html">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-support-tickets"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-support-tickets"></use>
+                      </svg><span>Support Ticket</span></a></li>
+                </ul>
+              </div>
+              <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
+            </nav>
+          </div>
+        </div>
+        <!-- Page Sidebar Ends-->
+        <div class="page-body">
+          <!-- Container-fluid starts-->
+          <div class="container-fluid default-dashboard"> 
+            <div class="row widget-grid">
+              <!-- <div class="col-xl-5 col-md-6 proorder-xl-1 proorder-md-1">  
+                <div class="card profile-greeting p-0">
+                  <div class="card-body">
+                    <div class="img-overlay">
+                      <h1>Good day, Lena Miller</h1>
+                      <p>Welcome to the Mofi family! We are delighted that you have visited our dashboard.</p><a class="btn" href="index.html">Go Premium</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 proorder-xl-2 proorder-md-2">
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <div class="header-top">
+                      <h4>Opening of leaflets</h4>
+                      <div class="dropdown icon-dropdown">
+                        <button class="btn dropdown-toggle" id="userdropdown17" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown17"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body pb-0 opening-box">
+                    <div class="d-flex align-items-center gap-2"> 
+                      <h2>$ 12,463</h2>
+                      <div class="d-flex">
+                        <p class="mb-0 up-arrow"><i class="fa fa-arrow-up"></i></p><span class="f-w-500 font-success">+ 20.08%</span>
+                      </div>
+                    </div>
+                    <div id="growthchart"> </div>
+                  </div>
+                </div>
+              </div> -->
+              <div class="col-xl-12 proorder-xl-12 box-col-12 proorder-md-12"> 
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <div class="header-top">
+                      <h4>Chats não resolvidos/fechados</h4>
+                      <div class="dropdown icon-dropdown">
+                        <button class="btn dropdown-toggle" id="userdropdown0" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown0"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body pt-0 projects px-0">
+                    <div class="table-responsive theme-scrollbar">
+                      <table class="table display px-1" id="unresolved-chats" style="width:100%">
+                        <thead>
+                          <tr> 
+                            <th> 
+                              &nbsp;
+                            </th>
+                            <th>Departamento / Usuário</th>
+                            <th>
+                              <button
+                                class="btn btn-danger"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-danger">
+                                Aberto (25)
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-primary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-primary">
+                                Em atendimento (12)
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-warning"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-warning">
+                                Aguardando (18)
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-secondary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-secondary">
+                                Total (41)
+                              </button>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="operator-status">
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                  <i class="icofont icofont-not-allowed"></i>
+                                </div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex"> 
+                                <div class="flex-grow-1">
+                                  <h6>Ninguém delegado</h6>
+                                </div>
+                              </div>
+                            </td>
+                            <th>
+                              <button
+                                class="btn btn-danger"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-danger">
+                                13
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-primary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-primary">
+                                11
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-warning"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-warning">
+                                8
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-secondary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-secondary">
+                                27
+                              </button>
+                            </th>
+                          </tr>
+                          <tr>
+                            <td class="operator-status">
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                  <i class="icofont icofont-users-alt-1 color-error"></i>
+                                </div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex"> 
+                                <div class="flex-grow-1">
+                                  <h6>Financeiro</h6>
+                                  <span>financeiro@chatguru.com.br</span>
+                                </div>
+                              </div>
+                            </td>
+                            <th>
+                              <button
+                                class="btn btn-danger"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-danger">
+                                8
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-primary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-primary">
+                                3
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-warning"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-warning">
+                                0
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-secondary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-secondary">
+                                11
+                              </button>
+                            </th>
+                          </tr>
+                          <tr>
+                            <td class="operator-status">
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                  <i class="icofont icofont-users-alt-1 color-success"></i>
+                                </div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex"> 
+                                <div class="flex-grow-1">
+                                  <h6>Suporte Técnico</h6>
+                                  <span>suporte@chatguru.com.br</span>
+                                </div>
+                              </div>
+                            </td>
+                            <th>
+                              <button
+                                class="btn btn-danger"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-danger">
+                                8
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-primary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-primary">
+                                3
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-warning"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-warning">
+                                0
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-secondary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-secondary">
+                                11
+                              </button>
+                            </th>
+                          </tr>
+                          <tr>
+                            <td class="operator-status">
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                  <i class="icofont icofont-user-alt-1 color-error"></i>
+                                </div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex"> 
+                                <div class="flex-grow-1">
+                                  <h6>Fulano da Silva</h6>
+                                  <span>fulano@chatguru.com.br</span>
+                                </div>
+                              </div>
+                            </td>
+                            <th>
+                              <button
+                                class="btn btn-danger"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-danger">
+                                8
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-primary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-primary">
+                                3
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-warning"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-warning">
+                                0
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-secondary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-secondary">
+                                11
+                              </button>
+                            </th>
+                          </tr>
+                          <tr>
+                            <td class="operator-status">
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                  <i class="icofont icofont-crown color-success"></i>
+                                </div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex"> 
+                                <div class="flex-grow-1">
+                                  <h6>Fulano da Silva</h6>
+                                  <span>fulano@chatguru.com.br</span>
+                                </div>
+                              </div>
+                            </td>
+                            <th>
+                              <button
+                                class="btn btn-danger"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-danger">
+                                8
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-primary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-primary">
+                                3
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-warning"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-warning">
+                                0
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-secondary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-secondary">
+                                11
+                              </button>
+                            </th>
+                          </tr>
+                          <tr>
+                            <td class="operator-status">
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                  <i class="icofont icofont-user-alt-1 color-success"></i>
+                                </div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex"> 
+                                <div class="flex-grow-1">
+                                  <h6>Fulano da Silva</h6>
+                                  <span>fulano@chatguru.com.br</span>
+                                </div>
+                              </div>
+                            </td>
+                            <th>
+                              <button
+                                class="btn btn-danger"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-danger">
+                                8
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-primary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-primary">
+                                3
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-warning"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-warning">
+                                0
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-secondary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-secondary">
+                                11
+                              </button>
+                            </th>
+                          </tr>
+                          <tr>
+                            <td class="operator-status">
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                  <i class="icofont icofont-crown color-error"></i>
+                                </div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex"> 
+                                <div class="flex-grow-1">
+                                  <h6>Fulano da Silva</h6>
+                                  <span>fulano@chatguru.com.br</span>
+                                </div>
+                              </div>
+                            </td>
+                            <th>
+                              <button
+                                class="btn btn-danger"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-danger">
+                                8
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-primary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-primary">
+                                3
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-warning"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-warning">
+                                0
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-secondary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-secondary">
+                                11
+                              </button>
+                            </th>
+                          </tr>
+                          <tr>
+                            <td class="operator-status">
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                  <i class="icofont icofont-user-alt-1 color-error"></i>
+                                </div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex"> 
+                                <div class="flex-grow-1">
+                                  <h6>Fulano da Silva</h6>
+                                  <span>fulano@chatguru.com.br</span>
+                                </div>
+                              </div>
+                            </td>
+                            <th>
+                              <button
+                                class="btn btn-danger"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-danger">
+                                8
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-primary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-primary">
+                                3
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-warning"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-warning">
+                                0
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-secondary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-secondary">
+                                11
+                              </button>
+                            </th>
+                          </tr>
+                          <tr>
+                            <td class="operator-status">
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                  <i class="icofont icofont-user-alt-1 color-error"></i>
+                                </div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex"> 
+                                <div class="flex-grow-1">
+                                  <h6>Fulano da Silva</h6>
+                                  <span>fulano@chatguru.com.br</span>
+                                </div>
+                              </div>
+                            </td>
+                            <th>
+                              <button
+                                class="btn btn-danger"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-danger">
+                                8
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-primary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-primary">
+                                3
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-warning"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-warning">
+                                0
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-secondary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-secondary">
+                                11
+                              </button>
+                            </th>
+                          </tr>
+                          <tr>
+                            <td class="operator-status">
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                  <i class="icofont icofont-user-alt-1 color-error"></i>
+                                </div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex"> 
+                                <div class="flex-grow-1">
+                                  <h6>Fulano da Silva</h6>
+                                  <span>fulano@chatguru.com.br</span>
+                                </div>
+                              </div>
+                            </td>
+                            <th>
+                              <button
+                                class="btn btn-danger"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-danger">
+                                8
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-primary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-primary">
+                                3
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-warning"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-warning">
+                                0
+                              </button>
+                            </th>
+                            <th>
+                              <button
+                                class="btn btn-secondary"
+                                type="button"
+                                data-bs-toggle="tooltip"
+                                data-bs-original-title="btn btn-secondary">
+                                11
+                              </button>
+                            </th>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-5 col-md-5 proorder-xl-3 proorder-md-3"> 
+                <div class="card shifts-char-box">
+                  <div class="card-header card-no-border pb-0">
+                    <div class="header-top"> 
+                      <h4>Status dos Chats</h4>
+                      <!-- <div class="d-flex align-items-center gap-3"> 
+                        <div class="location-menu dropdown">
+                          <button class="btn dropdown-toggle" id="locationdropdown" data-bs-toggle="dropdown" aria-expanded="false">Location</button>
+                          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown"><a class="dropdown-item" href="#">Address Selection</a><a class="dropdown-item" href="#">Geo-Menu</a><a class="dropdown-item" href="#">Place Picker</a></div>
+                        </div>
+                        <div class="dropdown icon-dropdown">
+                          <button class="btn dropdown-toggle" id="userdropdown16" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown16"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="row"> 
+                      <div class="col-6"> 
+                        <div class="overview" id="shifts-overview"></div>
+                      </div>
+                      <div class="col-6 shifts-overview">
+                        <div class="d-flex gap-2"> 
+                          <div class="flex-shrink-0"><span class="bg-danger"> </span></div>
+                          <div class="flex-grow-1"> 
+                            <h6>Aberto</h6>
+                          </div><span>31</span>
+                        </div>
+                        <div class="d-flex gap-2"> 
+                          <div class="flex-shrink-0"><span class="bg-primary"></span></div>
+                          <div class="flex-grow-1"> 
+                            <h6>Em atendimento</h6>
+                          </div><span>21</span>
+                        </div>
+                        <div class="d-flex gap-2"> 
+                          <div class="flex-shrink-0"><span class="bg-warning"> </span></div>
+                          <div class="flex-grow-1"> 
+                            <h6>Aguardando</h6>
+                          </div><span>23</span>
+                        </div>
+                        <div class="d-flex gap-2"> 
+                          <div class="flex-shrink-0"><span class="bg-tertiary"></span></div>
+                          <div class="flex-grow-1"> 
+                            <h6>Resolvido</h6>
+                          </div><span>37</span>
+                        </div>
+                        <div class="d-flex gap-2"> 
+                          <div class="flex-shrink-0"><span class="bg-secondary"></span></div>
+                          <div class="flex-grow-1"> 
+                            <h6>Fechado</h6>
+                          </div><span>91</span>
+                        </div>
+                        <div class="d-flex gap-2"> 
+                          <div class="flex-shrink-0"><span class="bg-gray"></span></div>
+                          <div class="flex-grow-1"> 
+                            <h6>Total</h6>
+                          </div><span>458</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-7 box-col-12 proorder-xl-8 proorder-md-9"> 
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <div class="header-top">
+                      <h4>Novos Chats - Últimos 07 dias</h4>
+                      <!-- <div class="dropdown icon-dropdown">
+                        <button class="btn dropdown-toggle" id="userdropdown14" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown14"><a class="dropdown-item" href="#">Últimos 07 dias</a></div>
+                      </div> -->
+                    </div>
+                  </div>
+                  <div class="card-body sale-statistic">
+                    <div class="row"> 
+                      <div class="col statistic-icon">    
+                        <div class="light-card balance-card widget-hover">
+                          <div class="icon-box"><img src="assets/images/dashboard/icon/customers.png" alt=""></div>
+                          <div>
+                            <span class="f-w-500 f-light">Chats</span>
+                            <h5 class="mt-1 mb-0">528</h5>
+                          </div>
+                          <div class="ms-auto text-end">
+                            <div class="dropdown icon-dropdown">
+                              <button class="btn dropdown-toggle" id="incomedropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                              <div class="dropdown-menu dropdown-menu-end" aria-labelledby="incomedropdown">
+                                <a class="dropdown-item" href="#">Últimos 30 dias</a>
+                              </div>
+                            </div>
+                            <span class="f-w-600 font-success">Média por dia: 21,43</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col statistic-icon">    
+                        <div class="light-card balance-card widget-hover">
+                          <div class="icon-box"><img src="assets/images/dashboard/icon/customers.png" alt=""></div>
+                          <div> 
+                            <span class="f-w-500 f-light">Atendimentos</span>
+                            <h5 class="mt-1 mb-0">112</h5>
+                          </div>
+                          <div class="ms-auto text-end">
+                            <div class="dropdown icon-dropdown">
+                              <button class="btn dropdown-toggle" id="incomedropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                              <div class="dropdown-menu dropdown-menu-end" aria-labelledby="incomedropdown">
+                                <a class="dropdown-item" href="#">Últimos 30 dias</a>
+                              </div>
+                            </div>
+                            <span class="f-w-600 font-success">Média por dia: 8,25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="chart-dash-2-line"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="col-xl-7 proorder-xl-5 box-col-7 proorder-md-5"> 
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <div class="header-top">
+                      <h4>Projects</h4>
+                      <div class="dropdown icon-dropdown">
+                        <button class="btn dropdown-toggle" id="userdropdown0" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown0"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body pt-0 projects px-0">
+                    <div class="table-responsive theme-scrollbar">
+                      <table class="table display" id="selling-product" style="width:100%">
+                        <thead>
+                          <tr> 
+                            <th> 
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label"></label>
+                              </div>
+                            </th>
+                            <th>Files Name</th>
+                            <th>File Type</th>
+                            <th>Date</th>
+                            <th>Sizes</th>
+                            <th>Author  </th>
+                            <th>Actions</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label"></label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0"><img src="assets/images/dashboard/project/1.png" alt=""></div>
+                                <div class="flex-grow-1 ms-2"><a href="product-page.html">
+                                    <h6>Rules Post on Dribble</h6></a></div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex"> 
+                                <div class="flex-shrink-0"><span class="bg-primary"></span></div>
+                                <div class="flex-grow-1">
+                                  <h6>Document</h6>
+                                </div>
+                              </div>
+                            </td>
+                            <td> 12 Aug 2023</td>
+                            <td> 200 Kb</td>
+                            <td>Monry Hasu</td>
+                            <td class="text-center"> 
+                              <div class="dropdown icon-dropdown">
+                                <button class="btn dropdown-toggle" id="userdropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label"></label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0"><img src="assets/images/dashboard/project/2.png" alt=""></div>
+                                <div class="flex-grow-1 ms-2"><a href="product-page.html">
+                                    <h6>Login & Sign Up Ui</h6></a></div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex">
+                                <div class="flex-shrink-0"><span class="bg-secondary"></span></div>
+                                <div class="flex-grow-1">
+                                  <h6>Animation</h6>
+                                </div>
+                              </div>
+                            </td>
+                            <td> 19 Mar 2023</td>
+                            <td> 3,5 Mb</td>
+                            <td>Alex Madus</td>
+                            <td class="text-center"> 
+                              <div class="dropdown icon-dropdown">
+                                <button class="btn dropdown-toggle" id="userdropdown2" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown2"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label"></label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0"><img src="assets/images/dashboard/project/3.png" alt=""></div>
+                                <div class="flex-grow-1 ms-2"><a href="product-page.html">
+                                    <h6>Nft website Pages</h6></a></div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex">
+                                <div class="flex-shrink-0"><span class="bg-warning"></span></div>
+                                <div class="flex-grow-1">
+                                  <h6>Image</h6>
+                                </div>
+                              </div>
+                            </td>
+                            <td> 30 Jun 2023</td>
+                            <td> 800 Kb</td>
+                            <td>Nomru Nalij</td>
+                            <td class="text-center"> 
+                              <div class="dropdown icon-dropdown">
+                                <button class="btn dropdown-toggle" id="userdropdown3" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown3"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label"></label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0"><img src="assets/images/dashboard/project/4.png" alt=""></div>
+                                <div class="flex-grow-1 ms-2"><a href="product-page.html">
+                                    <h6>Square Dashboard</h6></a></div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex">
+                                <div class="flex-shrink-0"><span class="bg-tertiary"></span></div>
+                                <div class="flex-grow-1">
+                                  <h6>Document</h6>
+                                </div>
+                              </div>
+                            </td>
+                            <td> 24 Oct 2023</td>
+                            <td> 2,8 Mb</td>
+                            <td>Willium sen</td>
+                            <td class="text-center"> 
+                              <div class="dropdown icon-dropdown">
+                                <button class="btn dropdown-toggle" id="userdropdown4" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown4"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label"></label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0"><img src="assets/images/dashboard/project/4.png" alt=""></div>
+                                <div class="flex-grow-1 ms-2"><a href="product-page.html">
+                                    <h6>Square Dashboard</h6></a></div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex">
+                                <div class="flex-shrink-0"><span class="bg-tertiary"></span></div>
+                                <div class="flex-grow-1">
+                                  <h6>Document</h6>
+                                </div>
+                              </div>
+                            </td>
+                            <td> 24 Oct 2023</td>
+                            <td> 2,8 Mb</td>
+                            <td>Willium sen</td>
+                            <td class="text-center"> 
+                              <div class="dropdown icon-dropdown">
+                                <button class="btn dropdown-toggle" id="userdropdown5" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown5"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label"></label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0"><img src="assets/images/dashboard/project/1.png" alt=""></div>
+                                <div class="flex-grow-1 ms-2"><a href="product-page.html">
+                                    <h6>Rules Post on Dribble</h6></a></div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex"> 
+                                <div class="flex-shrink-0"><span class="bg-primary"></span></div>
+                                <div class="flex-grow-1">
+                                  <h6>Document</h6>
+                                </div>
+                              </div>
+                            </td>
+                            <td> 12 Aug 2023</td>
+                            <td> 200 Kb</td>
+                            <td>Monry Hasu</td>
+                            <td class="text-center"> 
+                              <div class="dropdown icon-dropdown">
+                                <button class="btn dropdown-toggle" id="userdropdown6" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown6"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label"></label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0"><img src="assets/images/dashboard/project/2.png" alt=""></div>
+                                <div class="flex-grow-1 ms-2"><a href="product-page.html">
+                                    <h6>Login & Sign Up Ui</h6></a></div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex">
+                                <div class="flex-shrink-0"><span class="bg-secondary"></span></div>
+                                <div class="flex-grow-1">
+                                  <h6>Animation</h6>
+                                </div>
+                              </div>
+                            </td>
+                            <td> 19 Mar 2023</td>
+                            <td> 3,5 Mb</td>
+                            <td>Alex Madus</td>
+                            <td class="text-center"> 
+                              <div class="dropdown icon-dropdown">
+                                <button class="btn dropdown-toggle" id="userdropdown7" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown7"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label"></label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0"><img src="assets/images/dashboard/project/4.png" alt=""></div>
+                                <div class="flex-grow-1 ms-2"><a href="product-page.html">
+                                    <h6>Square Dashboard</h6></a></div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex">
+                                <div class="flex-shrink-0"><span class="bg-tertiary"></span></div>
+                                <div class="flex-grow-1">
+                                  <h6>Document</h6>
+                                </div>
+                              </div>
+                            </td>
+                            <td> 24 Oct 2023</td>
+                            <td> 2,8 Mb</td>
+                            <td>Willium sen</td>
+                            <td class="text-center"> 
+                              <div class="dropdown icon-dropdown">
+                                <button class="btn dropdown-toggle" id="userdropdown8" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown8"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label"></label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0"><img src="assets/images/dashboard/project/3.png" alt=""></div>
+                                <div class="flex-grow-1 ms-2"><a href="product-page.html">
+                                    <h6>Nft website Pages</h6></a></div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex">
+                                <div class="flex-shrink-0"><span class="bg-warning"></span></div>
+                                <div class="flex-grow-1">
+                                  <h6>Image</h6>
+                                </div>
+                              </div>
+                            </td>
+                            <td> 30 Jun 2023</td>
+                            <td> 800 Kb</td>
+                            <td>Nomru Nalij</td>
+                            <td class="text-center"> 
+                              <div class="dropdown icon-dropdown">
+                                <button class="btn dropdown-toggle" id="userdropdown9" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt9"></i></button>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown9"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label"></label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0"><img src="assets/images/dashboard/project/1.png" alt=""></div>
+                                <div class="flex-grow-1 ms-2"><a href="product-page.html">
+                                    <h6>Rules Post on Dribble</h6></a></div>
+                              </div>
+                            </td>
+                            <td class="project-dot">
+                              <div class="d-flex">
+                                <div class="flex-shrink-0"><span class="bg-primary"></span></div>
+                                <div class="flex-grow-1">
+                                  <h6>Document</h6>
+                                </div>
+                              </div>
+                            </td>
+                            <td> 12 Aug 2023</td>
+                            <td> 200 Kb</td>
+                            <td>Monry Hasu</td>
+                            <td class="text-center"> 
+                              <div class="dropdown icon-dropdown">
+                                <button class="btn dropdown-toggle" id="userdropdown10" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown10"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <div class="col-xl-6 col-md-6 proorder-xl-4 box-col-5 proorder-md-6"> 
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <div class="header-top">
+                      <h4>Chats (Acumulado)</h4>
+                      <div class="dropdown icon-dropdown">
+                        <button class="btn dropdown-toggle" id="userdropdown11" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown11"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body pb-0">
+                    <div id="customer-transaction"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-md-6 proorder-xl-4 box-col-5 proorder-md-6"> 
+                <div class="card">
+                  <div class="card-header card-no-border pb-0">
+                    <div class="header-top">
+                      <h4>Mensagens (Últimos 07 dias)</h4>
+                      <div class="dropdown icon-dropdown">
+                        <button class="btn dropdown-toggle" id="userdropdown11" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown11"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body sale-statistic">
+                    <div class="row"> 
+                      <div class="col statistic-icon">    
+                        <div class="light-card balance-card widget-hover">
+                          <div class="icon-box"><img src="assets/images/dashboard/icon/customers.png" alt=""></div>
+                          <div>
+                            <span class="f-w-500 f-light">Enviadas</span>
+                            <h5 class="mt-1 mb-0">1534</h5>
+                          </div>
+                          <div class="ms-auto text-end">
+                            <div class="dropdown icon-dropdown">
+                              <button class="btn dropdown-toggle" id="incomedropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                              <div class="dropdown-menu dropdown-menu-end" aria-labelledby="incomedropdown">
+                                <a class="dropdown-item" href="#">Últimos 30 dias</a>
+                              </div>
+                            </div>
+                            <span class="f-w-600 font-success">Média/dia: 118,25</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col statistic-icon">    
+                        <div class="light-card balance-card widget-hover">
+                          <div class="icon-box"><img src="assets/images/dashboard/icon/customers.png" alt=""></div>
+                          <div> 
+                            <span class="f-w-500 f-light">Recebidas</span>
+                            <h5 class="mt-1 mb-0">2522</h5>
+                          </div>
+                          <div class="ms-auto text-end">
+                            <div class="dropdown icon-dropdown">
+                              <button class="btn dropdown-toggle" id="incomedropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
+                              <div class="dropdown-menu dropdown-menu-end" aria-labelledby="incomedropdown">
+                                <a class="dropdown-item" href="#">Últimos 30 dias</a>
+                              </div>
+                            </div>
+                            <span class="f-w-600 font-secondary">Média/dia: 198,55</span>
+                          </div>
+                        </div>
+                      </div>
+                    <div id="customer-transaction2"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Container-fluid Ends-->
+        </div>
+        <!-- footer start-->
+        <footer class="footer">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12 footer-copyright d-flex flex-wrap align-items-center justify-content-between">
+                <p class="mb-0 f-w-600">Copyright 2023 ©</p>
+                <p class="mb-0 f-w-600">Sistema desenvolvido pela ChatGuru</p>
+                  <svg class="footer-icon">
+                    <use href="assets/svg/icon-sprite.svg#footer-heart"> </use>
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- latest jquery-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap js-->
+    <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- feather icon js-->
+    <script src="assets/js/icons/feather-icon/feather.min.js"></script>
+    <script src="assets/js/icons/feather-icon/feather-icon.js"></script>
+    <!-- scrollbar js-->
+    <script src="assets/js/scrollbar/simplebar.js"></script>
+    <script src="assets/js/scrollbar/custom.js"></script>
+    <!-- Sidebar jquery-->
+    <script src="assets/js/config.js"></script>
+    <!-- Plugins JS start-->
+    <script src="assets/js/sidebar-menu.js"></script>
+    <script src="assets/js/sidebar-pin.js"></script>
+    <script src="assets/js/slick/slick.min.js"></script>
+    <script src="assets/js/slick/slick.js"></script>
+    <script src="assets/js/header-slick.js"></script>
+    <script src="assets/js/chart/apex-chart/apex-chart.js"></script>
+    <script src="assets/js/chart/apex-chart/stock-prices.js"></script>
+    <script src="assets/js/chart/apex-chart/moment.min.js"></script>
+    <script src="assets/js/notify/bootstrap-notify.min.js"></script>
+    <!-- calendar js-->
+    <script src="assets/js/dashboard/default.js"></script>
+    <script src="assets/js/notify/index.js"></script>
+    <script src="assets/js/datatable/datatables/jquery.dataTables.min.js"></script>
+    <script src="assets/js/datatable/datatables/datatable.custom.js"></script>
+    <script src="assets/js/datatable/datatables/datatable.custom1.js"></script>
+    <script src="assets/js/datepicker/date-range-picker/moment.min.js"></script>
+    <script src="assets/js/datepicker/date-range-picker/datepicker-range-custom.js"></script>
+    <script src="assets/js/typeahead/handlebars.js"></script>
+    <script src="assets/js/typeahead/typeahead.bundle.js"></script>
+    <script src="assets/js/typeahead/typeahead.custom.js"></script>
+    <script src="assets/js/typeahead-search/handlebars.js"></script>
+    <script src="assets/js/typeahead-search/typeahead-custom.js"></script>
+    <script src="assets/js/height-equal.js"></script>
+    <script src="assets/js/animation/wow/wow.min.js"></script>
+    <!-- Plugins JS Ends-->
+    <!-- Theme js-->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/theme-customizer/customizer.js"></script>
+    <!-- Plugin used-->
+    <script>new WOW().init();</script>
+  </body>
+</html>
