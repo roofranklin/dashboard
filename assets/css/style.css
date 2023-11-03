@@ -49131,3 +49131,9 @@ html[dir=rtl] body.dark-only .page-wrapper .page-body-wrapper .page-body .card:n
 .color-error {
   color: #E44141;
 }
+
+.sidebar-link .icofont {
+  color: white;
+  padding-right: 10px;
+  font-size: 1.1em;
+}
