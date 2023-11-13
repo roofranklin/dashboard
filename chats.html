@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mofi admin is super flexible, powerful, clean &amp; modern responsive bootstrap 5 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Mofi admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="pixelstrap">
+    <link rel="icon" href="../assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
+    <title>ChatGuru | Tela de Chats</title>
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+    <!-- ico-font-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/icofont.css">
+    <!-- Themify icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/themify.css">
+    <!-- Flag icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/flag-icon.css">
+    <!-- Feather icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/feather-icon.css">
+    <!-- Plugins css start-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/datatables.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/date-range-picker/flatpickr.min.css">
+    <!-- Plugins css Ends-->
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap.css">
+    <!-- App css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link id="color" rel="stylesheet" href="assets/css/color-1.css" media="screen">
+    <!-- Responsive css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+  </head>
+  <body>  
+    <div class="loader-wrapper"> 
+      <div class="loader loader-1">
+        <div class="loader-outter"></div>
+        <div class="loader-inner"></div>
+        <div class="loader-inner-1"></div>
+      </div>
+    </div>
+    <!-- loader ends-->
+    <!-- tap on top starts-->
+    <div class="tap-top"><i data-feather="chevrons-up"></i></div>
+    <!-- tap on tap ends-->
+    <div class="page-wrapper compact-wrapper" id="pageWrapper">
+      <div class="page-header row">
+        <div class="header-logo-wrapper col-auto">
+          <div class="logo-wrapper">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 538 125" width="160" height="37">
+                <style>
+                  tspan {
+                    white-space: pre
+                  }
+        
+                  .shp0 {
+                    fill: #fff
+                  }
+        
+                  .shp1 {
+                    fill: #14b67b
+                  }
+                </style>
+                <path id="Chatguru " fill-rule="evenodd" class="shp0" d="M71.96 2.2C73.76 2.68 74.48 3.76 74.24 5.44L72.68 15.04C72.44 16.24 71.72 16.84 70.52 16.84L46.04 16.84C38 16.84 32.36 18.88 29.24 23.08C26.24 27.28 23.72 35.32 21.8 47.44C19.64 59.08 19.52 67.12 21.32 71.56C23.24 76 28.28 78.16 36.32 78.16L60.92 78.16C62.12 78.16 62.6 78.76 62.36 79.96L60.8 89.68C60.68 91.24 59.6 92.32 57.68 92.8C51.56 94 43.64 94.6 33.68 94.6C21.2 94.6 13.28 92.8 7.88 88.6C0.08 81.4 -0.64 69.52 2.72 47.44C5.6 29.08 10.16 16.72 16.4 10.24C22.76 3.64 33.44 0.4 48.68 0.4C57.92 0.4 65.72 1 71.96 2.2ZM101.84 1.12C103.04 1.12 103.52 1.72 103.4 3.04L99.68 26.8C103.4 26.44 107.6 26.2 112.52 26.2C135.44 26.2 140.6 30.52 136.88 55L131 92.08C130.76 93.4 130.04 94 128.84 94L114.56 94C113.48 94 113 93.4 113.12 92.08L118.28 59.56C121.04 42.52 119.24 41.56 108.2 41.56L97.4 41.56L89.36 92.08C89.24 93.4 88.64 94 87.32 94L72.92 94C71.84 94 71.36 93.4 71.48 92.08L85.64 3.04C85.76 1.72 86.48 1.12 87.68 1.12L101.84 1.12ZM202.16 31.24C205.76 34.6 206.96 39.76 205.88 46.84L199.28 88.36C198.92 90.16 197.84 91.48 196.04 92.08C188.36 93.76 179.12 94.6 168.32 94.6C158.24 94.6 153.2 94.12 148.4 91.36C143.72 88.48 142.52 83.08 143.96 73.84C145.28 66.16 148.04 61 152.24 58.24C156.56 55.48 163.04 54.16 171.56 54.16L186.8 54.16L187.52 49.84C188.48 44.08 185.36 41.56 177.56 41.56L155.96 41.56C154.76 41.56 154.28 40.84 154.52 39.52L156.08 29.92C156.2 28.84 156.92 28.24 158 28C164.36 26.8 171.68 26.2 179.96 26.2C191.12 26.2 198.56 27.88 202.16 31.24ZM185.12 65.68L171.2 65.68C165.08 65.68 162.56 67.72 161.72 72.88C160.76 78.52 163.04 80.2 170.72 80.2C175.76 80.2 179.84 79.84 182.96 79L185.12 65.68ZM245.6 8.2C246.92 7.84 247.64 8.56 247.28 10L244.52 27.16L255.56 27.16C256.88 27.16 257.48 27.76 257.36 28.96L255.8 38.56C255.56 39.76 254.84 40.36 253.52 40.36L242.36 40.36L237.32 73.12C236.48 78.04 237.92 79.24 243.32 79.24L248.36 79.24C249.68 79.24 250.28 79.84 250.16 81.04L248.48 91.24C248.24 92.56 247.52 93.28 246.2 93.52C242.48 94.24 239 94.6 235.76 94.6C230.48 94.72 225.8 94.48 222.32 92.56C219.08 90.28 217.28 86.92 218.48 79.12L224.6 40.36L217.64 40.36C216.32 40.36 215.72 39.76 215.96 38.56L217.52 28.96C217.64 27.76 218.48 27.16 219.8 27.16L226.76 27.16L228.8 13.84C229.04 12.76 229.76 12.16 230.84 11.92L245.6 8.2Z">
+                </path>
+                <path id="Chatguru " fill-rule="evenodd" class="shp1" d="M340.07 12.1C342.32 12.4 343.07 13.6 342.62 15.85L330.47 92.2C328.52 104.65 326.27 110.95 320.27 116.95C314.42 122.95 304.67 125.05 288.62 125.05C278.12 125.05 268.97 124.3 261.17 122.95C259.82 122.8 259.22 121.9 259.52 120.55L261.32 109.15C261.62 107.65 262.37 106.9 263.72 106.9L289.52 106.9C302.57 106.9 306.32 104.05 307.97 94L308.12 93.1C302.12 94.15 295.97 94.75 289.52 94.75C275.87 94.75 267.17 91.75 263.42 85.75C259.67 79.75 259.07 68.05 261.92 50.8C268.07 17.05 275.12 10.15 307.67 9.25C319.22 9.25 330.02 10.15 340.07 12.1ZM318.47 28.45L303.62 28.45C296.57 28.45 291.92 29.95 289.67 33.1C287.42 36.1 285.47 42.4 283.82 51.85C282.32 61.6 282.32 68.05 283.97 71.05C285.62 73.9 290.12 75.4 297.47 75.4C303.02 75.4 307.52 75.1 311.12 74.5L318.47 28.45ZM415.46 26.8C416.66 26.8 417.14 27.4 416.9 28.6L407.18 90.52C407.06 91.6 406.34 92.32 405.14 92.56C397.7 93.88 387.98 94.6 375.98 94.6C352.82 94.6 347.9 90.28 351.62 65.68L357.5 28.6C357.74 27.4 358.46 26.8 359.78 26.8L373.94 26.8C375.02 26.8 375.5 27.4 375.26 28.6L370.22 61.12C369.14 68.32 368.9 72.04 369.26 74.92C370.7 79.24 373.34 79.12 380.18 79.24L391.1 79.24L399.14 28.6C399.38 27.4 400.1 26.8 401.18 26.8L415.46 26.8ZM468.5 27.52C469.7 27.88 470.18 28.72 470.06 29.92L468.5 39.76C468.26 40.96 467.42 41.56 466.1 41.56L454.82 41.56C448.46 41.56 446.3 42.76 445.46 47.68L438.38 92.08C438.26 93.4 437.66 94 436.34 94L422.06 94C420.86 94 420.38 93.4 420.62 92.08L428.42 43.12C429.5 35.92 432.74 31 437.54 28.96C442.34 26.68 446.42 26.2 452.78 26.2C459.5 26.2 464.78 26.68 468.5 27.52ZM536.18 26.8C537.38 26.8 537.86 27.4 537.62 28.6L527.9 90.52C527.78 91.6 527.06 92.32 525.86 92.56C518.42 93.88 508.7 94.6 496.7 94.6C473.54 94.6 468.62 90.28 472.34 65.68L478.22 28.6C478.46 27.4 479.18 26.8 480.5 26.8L494.66 26.8C495.74 26.8 496.22 27.4 495.98 28.6L490.94 61.12C489.86 68.32 489.62 72.04 489.98 74.92C491.42 79.24 494.06 79.12 500.9 79.24L511.82 79.24L519.86 28.6C520.1 27.4 520.82 26.8 521.9 26.8L536.18 26.8Z">
+                </path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="col-4 col-xl-4 page-title">
+          <h4 class="f-w-700">Meus Chats</h4>
+          <nav>
+            <ol class="breadcrumb justify-content-sm-start align-items-center mb-0">
+              <li class="breadcrumb-item"><a href="dashboard.html"> <i data-feather="home"> </i></a></li>
+              <li class="breadcrumb-item f-w-400 active">Lista de Chats</li>
+            </ol>
+          </nav>
+        </div>
+        <!-- Page Header Start-->
+        <div class="header-wrapper col m-0">
+          <div class="row">
+            <form class="form-inline search-full col" action="#" method="get">
+              <div class="form-group w-100">
+                <div class="Typeahead Typeahead--twitterUsers">
+                  <div class="u-posRelative">
+                    <input class="demo-input Typeahead-input form-control-plaintext w-100" type="text" placeholder="Search Mofi .." name="q" title="" autofocus>
+                    <div class="spinner-border Typeahead-spinner" role="status"><span class="sr-only">Carregando...</span></div><i class="close-search" data-feather="x"></i>
+                  </div>
+                  <div class="Typeahead-menu"></div>
+                </div>
+              </div>
+            </form>
+            <div class="header-logo-wrapper col-auto p-0">
+              <div class="logo-wrapper">
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 538 125" width="160" height="37">
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+            
+                      .shp0 {
+                        fill: #fff
+                      }
+            
+                      .shp1 {
+                        fill: #14b67b
+                      }
+                    </style>
+                    <path id="Chatguru " fill-rule="evenodd" class="shp0" d="M71.96 2.2C73.76 2.68 74.48 3.76 74.24 5.44L72.68 15.04C72.44 16.24 71.72 16.84 70.52 16.84L46.04 16.84C38 16.84 32.36 18.88 29.24 23.08C26.24 27.28 23.72 35.32 21.8 47.44C19.64 59.08 19.52 67.12 21.32 71.56C23.24 76 28.28 78.16 36.32 78.16L60.92 78.16C62.12 78.16 62.6 78.76 62.36 79.96L60.8 89.68C60.68 91.24 59.6 92.32 57.68 92.8C51.56 94 43.64 94.6 33.68 94.6C21.2 94.6 13.28 92.8 7.88 88.6C0.08 81.4 -0.64 69.52 2.72 47.44C5.6 29.08 10.16 16.72 16.4 10.24C22.76 3.64 33.44 0.4 48.68 0.4C57.92 0.4 65.72 1 71.96 2.2ZM101.84 1.12C103.04 1.12 103.52 1.72 103.4 3.04L99.68 26.8C103.4 26.44 107.6 26.2 112.52 26.2C135.44 26.2 140.6 30.52 136.88 55L131 92.08C130.76 93.4 130.04 94 128.84 94L114.56 94C113.48 94 113 93.4 113.12 92.08L118.28 59.56C121.04 42.52 119.24 41.56 108.2 41.56L97.4 41.56L89.36 92.08C89.24 93.4 88.64 94 87.32 94L72.92 94C71.84 94 71.36 93.4 71.48 92.08L85.64 3.04C85.76 1.72 86.48 1.12 87.68 1.12L101.84 1.12ZM202.16 31.24C205.76 34.6 206.96 39.76 205.88 46.84L199.28 88.36C198.92 90.16 197.84 91.48 196.04 92.08C188.36 93.76 179.12 94.6 168.32 94.6C158.24 94.6 153.2 94.12 148.4 91.36C143.72 88.48 142.52 83.08 143.96 73.84C145.28 66.16 148.04 61 152.24 58.24C156.56 55.48 163.04 54.16 171.56 54.16L186.8 54.16L187.52 49.84C188.48 44.08 185.36 41.56 177.56 41.56L155.96 41.56C154.76 41.56 154.28 40.84 154.52 39.52L156.08 29.92C156.2 28.84 156.92 28.24 158 28C164.36 26.8 171.68 26.2 179.96 26.2C191.12 26.2 198.56 27.88 202.16 31.24ZM185.12 65.68L171.2 65.68C165.08 65.68 162.56 67.72 161.72 72.88C160.76 78.52 163.04 80.2 170.72 80.2C175.76 80.2 179.84 79.84 182.96 79L185.12 65.68ZM245.6 8.2C246.92 7.84 247.64 8.56 247.28 10L244.52 27.16L255.56 27.16C256.88 27.16 257.48 27.76 257.36 28.96L255.8 38.56C255.56 39.76 254.84 40.36 253.52 40.36L242.36 40.36L237.32 73.12C236.48 78.04 237.92 79.24 243.32 79.24L248.36 79.24C249.68 79.24 250.28 79.84 250.16 81.04L248.48 91.24C248.24 92.56 247.52 93.28 246.2 93.52C242.48 94.24 239 94.6 235.76 94.6C230.48 94.72 225.8 94.48 222.32 92.56C219.08 90.28 217.28 86.92 218.48 79.12L224.6 40.36L217.64 40.36C216.32 40.36 215.72 39.76 215.96 38.56L217.52 28.96C217.64 27.76 218.48 27.16 219.8 27.16L226.76 27.16L228.8 13.84C229.04 12.76 229.76 12.16 230.84 11.92L245.6 8.2Z">
+                    </path>
+                    <path id="Chatguru " fill-rule="evenodd" class="shp1" d="M340.07 12.1C342.32 12.4 343.07 13.6 342.62 15.85L330.47 92.2C328.52 104.65 326.27 110.95 320.27 116.95C314.42 122.95 304.67 125.05 288.62 125.05C278.12 125.05 268.97 124.3 261.17 122.95C259.82 122.8 259.22 121.9 259.52 120.55L261.32 109.15C261.62 107.65 262.37 106.9 263.72 106.9L289.52 106.9C302.57 106.9 306.32 104.05 307.97 94L308.12 93.1C302.12 94.15 295.97 94.75 289.52 94.75C275.87 94.75 267.17 91.75 263.42 85.75C259.67 79.75 259.07 68.05 261.92 50.8C268.07 17.05 275.12 10.15 307.67 9.25C319.22 9.25 330.02 10.15 340.07 12.1ZM318.47 28.45L303.62 28.45C296.57 28.45 291.92 29.95 289.67 33.1C287.42 36.1 285.47 42.4 283.82 51.85C282.32 61.6 282.32 68.05 283.97 71.05C285.62 73.9 290.12 75.4 297.47 75.4C303.02 75.4 307.52 75.1 311.12 74.5L318.47 28.45ZM415.46 26.8C416.66 26.8 417.14 27.4 416.9 28.6L407.18 90.52C407.06 91.6 406.34 92.32 405.14 92.56C397.7 93.88 387.98 94.6 375.98 94.6C352.82 94.6 347.9 90.28 351.62 65.68L357.5 28.6C357.74 27.4 358.46 26.8 359.78 26.8L373.94 26.8C375.02 26.8 375.5 27.4 375.26 28.6L370.22 61.12C369.14 68.32 368.9 72.04 369.26 74.92C370.7 79.24 373.34 79.12 380.18 79.24L391.1 79.24L399.14 28.6C399.38 27.4 400.1 26.8 401.18 26.8L415.46 26.8ZM468.5 27.52C469.7 27.88 470.18 28.72 470.06 29.92L468.5 39.76C468.26 40.96 467.42 41.56 466.1 41.56L454.82 41.56C448.46 41.56 446.3 42.76 445.46 47.68L438.38 92.08C438.26 93.4 437.66 94 436.34 94L422.06 94C420.86 94 420.38 93.4 420.62 92.08L428.42 43.12C429.5 35.92 432.74 31 437.54 28.96C442.34 26.68 446.42 26.2 452.78 26.2C459.5 26.2 464.78 26.68 468.5 27.52ZM536.18 26.8C537.38 26.8 537.86 27.4 537.62 28.6L527.9 90.52C527.78 91.6 527.06 92.32 525.86 92.56C518.42 93.88 508.7 94.6 496.7 94.6C473.54 94.6 468.62 90.28 472.34 65.68L478.22 28.6C478.46 27.4 479.18 26.8 480.5 26.8L494.66 26.8C495.74 26.8 496.22 27.4 495.98 28.6L490.94 61.12C489.86 68.32 489.62 72.04 489.98 74.92C491.42 79.24 494.06 79.12 500.9 79.24L511.82 79.24L519.86 28.6C520.1 27.4 520.82 26.8 521.9 26.8L536.18 26.8Z">
+                    </path>
+                  </svg>
+                </a>
+              </div>
+              <div class="toggle-sidebar">
+                <i class="icofont icofont-brand-apple mx-1"></i>
+              </div>
+            </div>
+            <div class="nav-right col-xxl-8 col-xl-6 col-md-7 col-8 pull-right right-header p-0 ms-auto">
+              <ul class="nav-menus">
+                
+                <li>
+                  <div class="form-group w-100">
+                    <div class="Typeahead Typeahead--twitterUsers">
+                      <div class="u-posRelative d-flex align-items-center">
+                        <input class="demo-input py-0 Typeahead-input form-control-plaintext w-100" type="text" placeholder="Search Mofi .." name="q" title="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="onhover-dropdown bg-secondary">
+                  <div class="notification-box">
+                    <i class="icofont icofont-brand-whatsapp"></i>
+                  </div>
+                  <div class="onhover-show-div notification-dropdown">
+                    <h5 class="f-18 f-w-600 mb-0 dropdown-title">Detalhes</h5>
+                    <ul class="notification-box">
+                      <li class="d-flex"> 
+                        <div class="flex-grow-1">
+                          <a href="#">
+                            <h6>0000000</h6></a>
+                          <p>Capturar QR-Code</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="onhover-dropdown bg-success">
+                  <div class="notification-box">
+                    <i class="icofont icofont-brand-whatsapp"></i>
+                  </div>
+                  <div class="onhover-show-div notification-dropdown">
+                    <h5 class="f-18 f-w-600 mb-0 dropdown-title">Detalhes</h5>
+                    <ul class="notification-box">
+                      <li class="d-flex"> 
+                        <div class="flex-grow-1">
+                          <a href="#">
+                            <h6>12105987543</h6></a>
+                          <p>Conectado</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="onhover-dropdown bg-success">
+                  <div class="notification-box">
+                    <i class="icofont icofont-brand-whatsapp"></i>
+                  </div>
+                  <div class="onhover-show-div notification-dropdown">
+                    <h5 class="f-18 f-w-600 mb-0 dropdown-title">Detalhes</h5>
+                    <ul class="notification-box">
+                      <li class="d-flex"> 
+                        <div class="flex-grow-1">
+                          <a href="#">
+                            <h6>15853584023</h6></a>
+                          <p>Conectado</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="onhover-dropdown">
+                  <i class="icofont icofont-notification"></i>
+                  <span class="badge rounded-pill badge-danger">4 </span>
+                  <div class="onhover-show-div notification-dropdown">
+                    <h5 class="f-18 f-w-600 mb-0 dropdown-title">Alertas</h5>
+                    <ul class="messages">
+                      <li class="d-flex b-light1-primary gap-2"> 
+                        <div class="flex-shrink-0"><img src="assets/images/dashboard-2/user/1.png" alt="Graph"></div>
+                        <div class="flex-grow-1"> <a href="#">
+                            <h6 class="font-primary f-w-600">Relatório gerado com sucesso!</h6></a>
+                            <p>Clique para baixar</p>
+                        </div><span>10 min.</span>
+                      </li>
+                      <li class="d-flex b-light1-secondary gap-2"> 
+                        <div class="flex-shrink-0"><img src="assets/images/dashboard-2/user/2.png" alt="Graph"></div>
+                        <div class="flex-grow-1"> <a href="#">
+                          <h6 class="font-primary f-w-600">Relatório gerado com sucesso!</h6></a>
+                          <p>Clique para baixar</p>
+                        </div><span>25 min.</span>
+                      </li>
+                      <li class="d-flex b-light1-success gap-2"> 
+                        <div class="flex-shrink-0"><img src="assets/images/dashboard-2/user/3.png" alt="Graph"></div>
+                        <div class="flex-grow-1"> <a href="#">
+                          <h6 class="font-primary f-w-600">Relatório gerado com sucesso!</h6></a>
+                          <p>Clique para baixar</p>
+                        </div><span>1 h</span>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="onhover-dropdown">
+                  <i class="icofont icofont-ui-message"></i>
+                  <span class="badge rounded-pill badge-danger">4</span>
+                  <div class="onhover-show-div notification-dropdown">
+                    <h5 class="f-18 f-w-600 mb-0 dropdown-title">Mensagens</h5>
+                    <ul class="messages">
+                      <li class="d-flex b-light1-primary gap-2"> 
+                        <div class="flex-shrink-0"><img src="assets/images/dashboard-2/user/1.png" alt="Graph"></div>
+                        <div class="flex-grow-1"> <a href="#">
+                            <h6 class="font-primary f-w-600">Hackett Yessenia</h6></a>
+                          <p>Hello Miss...&#128522;</p>
+                        </div><span>10 min.</span>
+                      </li>
+                      <li class="d-flex b-light1-secondary gap-2"> 
+                        <div class="flex-shrink-0"><img src="assets/images/dashboard-2/user/2.png" alt="Graph"></div>
+                        <div class="flex-grow-1"> <a href="#">
+                            <h6 class="font-secondary f-w-600">schneider Adan</h6></a>
+                          <p>Wishing You a Happy Birthday Dear..  🥳&#127882;</p>
+                        </div><span>25 min.</span>
+                      </li>
+                      <li class="d-flex b-light1-success gap-2"> 
+                        <div class="flex-shrink-0"><img src="assets/images/dashboard-2/user/3.png" alt="Graph"></div>
+                        <div class="flex-grow-1"> <a href="#">
+                            <h6 class="font-success f-w-600">Mahdi Gholizadeh</h6></a>
+                          <p>Hello Dear!! This Theme Is Very beautiful</p>
+                        </div><span>1 hours</span>
+                      </li>
+                      <li><a class="f-w-700" href="#">Ir para tela de chats</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="icofont icofont-audio"></i>
+                  </a>                
+                </li>
+                <li>
+                  <div class="mode">
+                    <i class="icofont icofont-moon"></i>
+                  </div>
+                </li>
+                <li class="profile-nav onhover-dropdown px-0 py-0">
+                  <div class="d-flex profile-media align-items-center"><img class="img-30" src="assets/images/dashboard/profile.png" alt="">
+                    <div class="flex-grow-1"><span>DEV Chatguru</span>
+                      <p class="mb-0 font-outfit">Homologação  <i class="fa fa-angle-down"></i></p>
+                    </div>
+                  </div>
+                  <ul class="profile-dropdown onhover-show-div">
+                    <li><a href="index.html"><i data-feather="log-in"> </i><span>Logout</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <script class="result-template" type="text/x-handlebars-template">
+              <div class="ProfileCard u-cf">                        
+              <div class="ProfileCard-avatar"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-airplay m-0"><path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"></path><polygon points="12 15 17 21 7 21 12 15"></polygon></svg></div>
+              <div class="ProfileCard-details">
+              <div class="ProfileCard-realName">{{name}}</div>
+              </div>
+              </div>
+            </script>
+            <script class="empty-template" type="text/x-handlebars-template"><div class="EmptyMessage">Your search turned up 0 results. This most likely means the backend is down, yikes!</div></script>
+          </div>
+        </div>
+        <!-- Page Header Ends -->
+      </div>
+      <!-- Page Body Start-->
+      <div class="page-body-wrapper">
+        <!-- Page Sidebar Start-->
+        <div class="sidebar-wrapper" data-layout="stroke-svg">
+          <div>
+            <div class="logo-wrapper">
+              <a href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 538 125" width="140" height="32">
+                  <style>
+                    tspan {
+                      white-space: pre
+                    }
+          
+                    .shp0 {
+                      fill: #fff
+                    }
+          
+                    .shp1 {
+                      fill: #14b67b
+                    }
+                  </style>
+                  <path id="Chat" fill-rule="evenodd" class="shp0" d="M71.96 2.2C73.76 2.68 74.48 3.76 74.24 5.44L72.68 15.04C72.44 16.24 71.72 16.84 70.52 16.84L46.04 16.84C38 16.84 32.36 18.88 29.24 23.08C26.24 27.28 23.72 35.32 21.8 47.44C19.64 59.08 19.52 67.12 21.32 71.56C23.24 76 28.28 78.16 36.32 78.16L60.92 78.16C62.12 78.16 62.6 78.76 62.36 79.96L60.8 89.68C60.68 91.24 59.6 92.32 57.68 92.8C51.56 94 43.64 94.6 33.68 94.6C21.2 94.6 13.28 92.8 7.88 88.6C0.08 81.4 -0.64 69.52 2.72 47.44C5.6 29.08 10.16 16.72 16.4 10.24C22.76 3.64 33.44 0.4 48.68 0.4C57.92 0.4 65.72 1 71.96 2.2ZM101.84 1.12C103.04 1.12 103.52 1.72 103.4 3.04L99.68 26.8C103.4 26.44 107.6 26.2 112.52 26.2C135.44 26.2 140.6 30.52 136.88 55L131 92.08C130.76 93.4 130.04 94 128.84 94L114.56 94C113.48 94 113 93.4 113.12 92.08L118.28 59.56C121.04 42.52 119.24 41.56 108.2 41.56L97.4 41.56L89.36 92.08C89.24 93.4 88.64 94 87.32 94L72.92 94C71.84 94 71.36 93.4 71.48 92.08L85.64 3.04C85.76 1.72 86.48 1.12 87.68 1.12L101.84 1.12ZM202.16 31.24C205.76 34.6 206.96 39.76 205.88 46.84L199.28 88.36C198.92 90.16 197.84 91.48 196.04 92.08C188.36 93.76 179.12 94.6 168.32 94.6C158.24 94.6 153.2 94.12 148.4 91.36C143.72 88.48 142.52 83.08 143.96 73.84C145.28 66.16 148.04 61 152.24 58.24C156.56 55.48 163.04 54.16 171.56 54.16L186.8 54.16L187.52 49.84C188.48 44.08 185.36 41.56 177.56 41.56L155.96 41.56C154.76 41.56 154.28 40.84 154.52 39.52L156.08 29.92C156.2 28.84 156.92 28.24 158 28C164.36 26.8 171.68 26.2 179.96 26.2C191.12 26.2 198.56 27.88 202.16 31.24ZM185.12 65.68L171.2 65.68C165.08 65.68 162.56 67.72 161.72 72.88C160.76 78.52 163.04 80.2 170.72 80.2C175.76 80.2 179.84 79.84 182.96 79L185.12 65.68ZM245.6 8.2C246.92 7.84 247.64 8.56 247.28 10L244.52 27.16L255.56 27.16C256.88 27.16 257.48 27.76 257.36 28.96L255.8 38.56C255.56 39.76 254.84 40.36 253.52 40.36L242.36 40.36L237.32 73.12C236.48 78.04 237.92 79.24 243.32 79.24L248.36 79.24C249.68 79.24 250.28 79.84 250.16 81.04L248.48 91.24C248.24 92.56 247.52 93.28 246.2 93.52C242.48 94.24 239 94.6 235.76 94.6C230.48 94.72 225.8 94.48 222.32 92.56C219.08 90.28 217.28 86.92 218.48 79.12L224.6 40.36L217.64 40.36C216.32 40.36 215.72 39.76 215.96 38.56L217.52 28.96C217.64 27.76 218.48 27.16 219.8 27.16L226.76 27.16L228.8 13.84C229.04 12.76 229.76 12.16 230.84 11.92L245.6 8.2Z">
+                  </path>
+                  <path id="Guru" fill-rule="evenodd" class="shp1" d="M340.07 12.1C342.32 12.4 343.07 13.6 342.62 15.85L330.47 92.2C328.52 104.65 326.27 110.95 320.27 116.95C314.42 122.95 304.67 125.05 288.62 125.05C278.12 125.05 268.97 124.3 261.17 122.95C259.82 122.8 259.22 121.9 259.52 120.55L261.32 109.15C261.62 107.65 262.37 106.9 263.72 106.9L289.52 106.9C302.57 106.9 306.32 104.05 307.97 94L308.12 93.1C302.12 94.15 295.97 94.75 289.52 94.75C275.87 94.75 267.17 91.75 263.42 85.75C259.67 79.75 259.07 68.05 261.92 50.8C268.07 17.05 275.12 10.15 307.67 9.25C319.22 9.25 330.02 10.15 340.07 12.1ZM318.47 28.45L303.62 28.45C296.57 28.45 291.92 29.95 289.67 33.1C287.42 36.1 285.47 42.4 283.82 51.85C282.32 61.6 282.32 68.05 283.97 71.05C285.62 73.9 290.12 75.4 297.47 75.4C303.02 75.4 307.52 75.1 311.12 74.5L318.47 28.45ZM415.46 26.8C416.66 26.8 417.14 27.4 416.9 28.6L407.18 90.52C407.06 91.6 406.34 92.32 405.14 92.56C397.7 93.88 387.98 94.6 375.98 94.6C352.82 94.6 347.9 90.28 351.62 65.68L357.5 28.6C357.74 27.4 358.46 26.8 359.78 26.8L373.94 26.8C375.02 26.8 375.5 27.4 375.26 28.6L370.22 61.12C369.14 68.32 368.9 72.04 369.26 74.92C370.7 79.24 373.34 79.12 380.18 79.24L391.1 79.24L399.14 28.6C399.38 27.4 400.1 26.8 401.18 26.8L415.46 26.8ZM468.5 27.52C469.7 27.88 470.18 28.72 470.06 29.92L468.5 39.76C468.26 40.96 467.42 41.56 466.1 41.56L454.82 41.56C448.46 41.56 446.3 42.76 445.46 47.68L438.38 92.08C438.26 93.4 437.66 94 436.34 94L422.06 94C420.86 94 420.38 93.4 420.62 92.08L428.42 43.12C429.5 35.92 432.74 31 437.54 28.96C442.34 26.68 446.42 26.2 452.78 26.2C459.5 26.2 464.78 26.68 468.5 27.52ZM536.18 26.8C537.38 26.8 537.86 27.4 537.62 28.6L527.9 90.52C527.78 91.6 527.06 92.32 525.86 92.56C518.42 93.88 508.7 94.6 496.7 94.6C473.54 94.6 468.62 90.28 472.34 65.68L478.22 28.6C478.46 27.4 479.18 26.8 480.5 26.8L494.66 26.8C495.74 26.8 496.22 27.4 495.98 28.6L490.94 61.12C489.86 68.32 489.62 72.04 489.98 74.92C491.42 79.24 494.06 79.12 500.9 79.24L511.82 79.24L519.86 28.6C520.1 27.4 520.82 26.8 521.9 26.8L536.18 26.8Z">
+                  </path>
+                </svg>
+              </a>
+              <div class="back-btn"><i class="fa fa-angle-left"></i></div>
+              <div class="toggle-sidebar">
+                <svg class="stroke-icon sidebar-toggle status_toggle middle">
+                  <use href="assets/svg/icon-sprite.svg#toggle-icon"></use>
+                </svg>
+                <svg class="fill-icon sidebar-toggle status_toggle middle">
+                  <use href="assets/svg/icon-sprite.svg#fill-toggle-icon"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="logo-icon-wrapper"><a href="index.html"><img class="img-fluid" width="36" src="assets/images/logo/logo-icon.png" alt=""></a></div>
+            <nav class="sidebar-main">
+              <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
+              <div id="sidebar-menu">
+                <ul class="sidebar-links" id="simple-bar">
+                  <li class="back-btn"><a href="index.html"><img class="img-fluid" src="assets/images/logo/logo-icon.png" alt=""></a>
+                    <div class="mobile-back text-end"><span>Back</span><i class="fa fa-angle-right ps-2" aria-hidden="true"></i></div>
+                  </li>
+                  <li class="pin-title sidebar-main-title">
+                    <div> 
+                      <h6>Favoritados</h6>
+                    </div>
+                  </li>
+                  <li class="sidebar-main-title">
+                    <div>
+                      <h6 class="lan-1">Geral</h6>
+                    </div>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-home"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-home"></use>
+                      </svg><span class="lan-3">Painel Inicial</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="chats.html">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-chat"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-chat"></use>
+                      </svg>
+                      <span class="lan-6">Chats</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <i class="icofont icofont-filter"></i>
+                      <span class="lan-7">Funil</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <i class="icofont icofont-lightning-ray"></i>
+                      <span>Respostas Rápidas</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <i class="icofont icofont-robot"></i>
+                      <span>Diálogos / Chatbot</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-email"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-email"> </use>
+                      </svg>
+                      <span>Campanhas</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav href="#">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-charts"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-charts"></use>
+                      </svg><span>Relatórios</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <i class="icofont icofont-brand-whatsapp"></i>
+                      <span>Celulares WhatsApp</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <i class="icofont icofont-tags"></i>
+                      <span>Tags</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <i class="icofont icofont-speed-meter"></i>
+                      <span>NPS</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <i class="icofont icofont-users-alt-1"></i>
+                      <span>Usuários</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-file"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-file"> </use>
+                      </svg><span>Arquivos</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <i class="icofont icofont-settings"></i><span>Configurações</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-main-title">
+                    <div>
+                      <h6>Administrativo</h6>
+                    </div>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <i class="icofont icofont-robot"></i>
+                      <span class="font-warning">Chatbots</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-contact"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-contact"> </use>
+                      </svg><span class="font-warning">Celulares</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <svg class="stroke-icon">
+                        <use href="assets/svg/icon-sprite.svg#stroke-contact"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="assets/svg/icon-sprite.svg#fill-contact"> </use>
+                      </svg><span class="font-warning">Celulares Apps</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <i class="icofont icofont-business-man-alt-1"></i>
+                      <span class="font-warning">Contas</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <i class="icofont icofont-business-man-alt-1"></i>
+                      <span class="font-warning">Contas Apps</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <i class="icofont icofont-users-alt-1"></i>
+                      <span class="font-warning">Usuários</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <i class="icofont icofont-server"></i>
+                      <span class="font-warning">Droplets</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <i class="icofont icofont-paint"></i>
+                      <span class="font-warning">White Labels</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <i class="icofont icofont-coins"></i>
+                      <span class="font-warning">Saldo de Templates</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <i class="icofont icofont-warning"></i>
+                      <span class="font-warning">Avisos</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-list">
+                    <i class="fa fa-thumb-tack"></i>
+                    <a class="sidebar-link sidebar-title link-nav" href="#">
+                      <i class="icofont icofont-file-text"></i>
+                      <span class="font-warning">Logs</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
+            </nav>
+          </div>
+        </div>
+        <!-- Page Sidebar Ends -->
+        <div class="page-body">
+          <!-- Container-fluid starts-->
+          <div class="container-fluid">
+            <div class="row g-0">
+              <div class="col-xxl-3 col-xl-4 col-md-5 box-col-5">
+                <div class="left-sidebar-wrapper card">
+                  <div class="left-sidebar-chat">
+                    <div class="input-group"><span class="input-group-text"><i class="search-icon text-gray" data-feather="search"></i></span>
+                      <input class="form-control" type="text" placeholder="Search here..">
+                    </div>
+                  </div>
+                  <div class="advance-options"> 
+                    <ul class="nav border-tab" id="chat-options-tab" role="tablist">
+                      <li class="nav-item"><a class="nav-link active" id="chats-tab" data-bs-toggle="tab" href="#chats" role="tab" aria-controls="chats" aria-selected="true">Chats</a></li>
+                      <li class="nav-item"><a class="nav-link" id="contacts-tab" data-bs-toggle="tab" href="#contacts" role="tab" aria-controls="contacts" aria-selected="false">Contacts</a></li>
+                    </ul>
+                    <div class="tab-content" id="chat-options-tabContent"> 
+                      <div class="tab-pane fade show active" id="chats" role="tabpanel" aria-labelledby="chats-tab">
+                        <div class="common-space"> 
+                          <p>Recent chats</p>
+                          <div class="header-top"><a class="btn badge-light-primary f-w-500" href="#!"><i class="fa fa-plus"></i></a></div>
+                        </div>
+                        <ul class="chats-user">
+                          <li class="common-space">
+                            <div class="chat-time">
+                              <div class="active-profile"><img class="img-fluid rounded-circle" src="../assets/images/avtar/3.jpg" alt="user">
+                                <div class="status bg-success"></div>
+                              </div>
+                              <div> <span>Cameron Williamson</span>
+                                <p>Hey, How are you?</p>
+                              </div>
+                            </div>
+                            <div>
+                              <p>2 min </p>
+                              <div class="badge badge-light-success">15</div>
+                            </div>
+                          </li>
+                          <li class="common-space">
+                            <div class="chat-time">
+                              <div class="active-profile"><img class="img-fluid rounded-circle" src="../assets/images/avtar/11.jpg" alt="user">
+                                <div class="status bg-success"></div>
+                              </div>
+                              <div> <span>Esther Howard</span>
+                                <p>Thanks for reply</p>
+                              </div>
+                            </div>
+                            <div>
+                              <p>7:30 PM</p>
+                            </div>
+                          </li>
+                          <li class="common-space">
+                            <div class="chat-time">
+                              <div class="active-profile"><img class="img-fluid rounded-circle" src="../assets/images/avtar/7.jpg" alt="user">
+                                <div class="status bg-success"></div>
+                              </div>
+                              <div> <span>Jane Cooper</span>
+                                <p>Hey, What's up?</p>
+                              </div>
+                            </div>
+                            <div>
+                              <p>1:10 PM</p>
+                            </div>
+                          </li>
+                          <li class="common-space">
+                            <div class="chat-time">
+                              <div class="active-profile"><img class="img-fluid rounded-circle" src="../assets/images/avtar/16.jpg" alt="user">
+                                <div class="status bg-success"></div>
+                              </div>
+                              <div> <span>Ronald Richards</span>
+                                <p>I'm ready</p>
+                              </div>
+                            </div>
+                            <div>
+                              <p>13:10 PM</p>
+                            </div>
+                          </li>
+                          <li class="common-space">
+                            <div class="chat-time">
+                              <div class="active-profile"><img class="img-fluid rounded-circle" src="../assets/images/avtar/4.jpg" alt="user">
+                                <div class="status bg-warning"></div>
+                              </div>
+                              <div> <span>Darlene Robertson</span>
+                                <p>Hey, How are you?</p>
+                              </div>
+                            </div>
+                            <div>
+                              <p>1:30 PM</p>
+                            </div>
+                          </li>
+                          <li class="common-space">
+                            <div class="chat-time">
+                              <div class="active-profile"><img class="img-fluid rounded-circle" src="../assets/images/blog/comment.jpg" alt="user">
+                                <div class="status bg-warning"></div>
+                              </div>
+                              <div> <span>Darrell Steward</span>
+                                <p>What's going on?</p>
+                              </div>
+                            </div>
+                            <div>
+                              <p>2:10 PM</p>
+                            </div>
+                          </li>
+                          <li class="common-space">
+                            <div class="chat-time">
+                              <div class="active-profile"><img class="img-fluid rounded-circle" src="../assets/images/blog/4.jpg" alt="user">
+                                <div class="status bg-success"></div>
+                              </div>
+                              <div> <span>Theresa Webb</span>
+                                <p>What's up?</p>
+                              </div>
+                            </div>
+                            <div>
+                              <p>1:50 AM</p>
+                            </div>
+                          </li>
+                          <li class="common-space">
+                            <div class="chat-time">
+                              <div class="active-profile"><img class="img-fluid rounded-circle" src="../assets/images/blog/12.png" alt="user">
+                                <div class="status bg-warning"></div>
+                              </div>
+                              <div> <span>Floyd Miles</span>
+                                <p>Are you sure?</p>
+                              </div>
+                            </div>
+                            <div>
+                              <p>5:14 PM</p>
+                            </div>
+                          </li>
+                          <li class="common-space">
+                            <div class="chat-time">
+                              <div class="active-profile"><img class="img-fluid rounded-circle" src="../assets/images/blog/9.jpg" alt="user">
+                                <div class="status bg-warning"></div>
+                              </div>
+                              <div> <span>Annette Black</span>
+                                <p>Thanks</p>
+                              </div>
+                            </div>
+                            <div>
+                              <p>1:50 PM</p>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="tab-pane fade" id="contacts" role="tabpanel" aria-labelledby="contacts-tab">
+                        <div class="common-space"> 
+                          <p>Contacts</p>
+                          <div class="header-top"><a class="btn badge-light-primary f-w-500" href="#!"><i class="fa fa-plus"></i></a></div>
+                        </div>
+                        <div class="search-contacts">
+                          <input class="form-control" type="text" placeholder="Name and phone number">
+                          <svg> 
+                            <use href="../assets/svg/icon-sprite.svg#stroke-search"></use>
+                          </svg><i class="mic-search" data-feather="mic"></i>
+                        </div>
+                        <div class="contact-wrapper">
+                          <p>A </p>
+                          <ul class="border-0">
+                            <li class="common-space">
+                              <div class="chat-time"><img class="img-fluid rounded-circle" src="../assets/images/avtar/3.jpg" alt="user">
+                                <div> <span>Andres Williamson</span>
+                                  <p>191-900-5689</p>
+                                </div>
+                              </div>
+                              <div class="contact-edit">
+                                <svg class="dropdown-toggle" role="menu" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <use href="../assets/svg/icon-sprite.svg#menubar"></use>
+                                </svg>
+                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#!">View details</a><a class="dropdown-item" href="#!">
+                                     Send messages</a><a class="dropdown-item" href="#!">
+                                     Add to favorites</a></div>
+                              </div>
+                            </li>
+                          </ul>
+                          <p>B</p>
+                          <ul class="border-0">
+                            <li class="common-space">
+                              <div class="chat-time"><img class="img-fluid rounded-circle" src="../assets/images/blog/comment.jpg" alt="user">
+                                <div> <span>Britlin Weed</span>
+                                  <p>698-781-5581</p>
+                                </div>
+                              </div>
+                              <div class="contact-edit">
+                                <svg class="dropdown-toggle" role="menu" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <use href="../assets/svg/icon-sprite.svg#menubar"></use>
+                                </svg>
+                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#!">View details</a><a class="dropdown-item" href="#!">
+                                     Send messages</a><a class="dropdown-item" href="#!">
+                                     Add to favorites</a></div>
+                              </div>
+                            </li>
+                            <li class="common-space">
+                              <div class="chat-time">
+                                <div class="custom-name bg-light-secondary">
+                                  <p class="txt-secondary f-w-500">BD</p>
+                                </div>
+                                <div> <span>Brendra Dixit</span>
+                                  <p>589-789-2563</p>
+                                </div>
+                              </div>
+                              <div class="contact-edit">
+                                <svg class="dropdown-toggle" role="menu" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <use href="../assets/svg/icon-sprite.svg#menubar"></use>
+                                </svg>
+                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#!">View details</a><a class="dropdown-item" href="#!">
+                                     Send messages</a><a class="dropdown-item" href="#!">
+                                     Add to favorites</a></div>
+                              </div>
+                            </li>
+                          </ul>
+                          <p>C </p>
+                          <ul class="border-0">
+                            <li class="common-space">
+                              <div class="chat-time"><img class="img-fluid rounded-circle" src="../assets/images/blog/14.png" alt="user">
+                                <div> <span>Cody Fisher</span>
+                                  <p>983-333-4545</p>
+                                </div>
+                              </div>
+                              <div class="contact-edit">
+                                <svg class="dropdown-toggle" role="menu" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <use href="../assets/svg/icon-sprite.svg#menubar"></use>
+                                </svg>
+                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#!">View details</a><a class="dropdown-item" href="#!">
+                                     Send messages</a><a class="dropdown-item" href="#!">
+                                     Add to favorites</a></div>
+                              </div>
+                            </li>
+                            <li class="common-space">
+                              <div class="chat-time">
+                                <div class="position-relative custom-name bg-light-success">
+                                  <p class="txt-success f-w-500">CE</p>
+                                </div>
+                                <div> <span>Clifford Evans</span>
+                                  <p>321-456-7878</p>
+                                </div>
+                              </div>
+                              <div class="contact-edit">
+                                <svg class="dropdown-toggle" role="menu" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <use href="../assets/svg/icon-sprite.svg#menubar"></use>
+                                </svg>
+                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#!">View details</a><a class="dropdown-item" href="#!">
+                                     Send messages</a><a class="dropdown-item" href="#!">
+                                     Add to favorites  </a></div>
+                              </div>
+                            </li>
+                            <li class="common-space">
+                              <div class="chat-time">
+                                <div class="custom-name bg-light-warning">
+                                  <p class="txt-warning f-w-500">CW </p>
+                                </div>
+                                <div> <span>Cameron Williamson</span>
+                                  <p>369-852-7417</p>
+                                </div>
+                              </div>
+                              <div class="contact-edit">
+                                <svg class="dropdown-toggle" role="menu" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <use href="../assets/svg/icon-sprite.svg#menubar"></use>
+                                </svg>
+                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#!">View details</a><a class="dropdown-item" href="#!">
+                                     Send messages</a><a class="dropdown-item" href="#!">
+                                     Add to favorites</a></div>
+                              </div>
+                            </li>
+                          </ul>
+                          <p>D</p>
+                          <ul class="border-0">
+                            <li class="common-space">
+                              <div class="chat-time"><img class="img-fluid rounded-circle" src="../assets/images/blog/12.png" alt="user">
+                                <div> <span>Darlene Robertson</span>
+                                  <p>231-279-1001</p>
+                                </div>
+                              </div>
+                              <div class="contact-edit">
+                                <svg class="dropdown-toggle" role="menu" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <use href="../assets/svg/icon-sprite.svg#menubar"></use>
+                                </svg>
+                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#!">View details</a><a class="dropdown-item" href="#!">
+                                     Send messages</a><a class="dropdown-item" href="#!">
+                                     Add to favorites</a></div>
+                              </div>
+                            </li>
+                            <li class="common-space">
+                              <div class="chat-time"><img class="img-fluid rounded-circle" src="../assets/images/user/3.png" alt="user">
+                                <div> <span>Dianne Russell</span>
+                                  <p>569-789-1002</p>
+                                </div>
+                              </div>
+                              <div class="contact-edit">
+                                <svg class="dropdown-toggle" role="menu" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <use href="../assets/svg/icon-sprite.svg#menubar"></use>
+                                </svg>
+                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#!">View details</a><a class="dropdown-item" href="#!">
+                                     Send messages</a><a class="dropdown-item" href="#!">
+                                     Add to favorites</a></div>
+                              </div>
+                            </li>
+                            <li class="common-space">
+                              <div class="chat-time"><img class="img-fluid rounded-circle" src="../assets/images/user/6.jpg" alt="user">
+                                <div> <span>Darrell Steward</span>
+                                  <p>200-300-1030</p>
+                                </div>
+                              </div>
+                              <div class="contact-edit">
+                                <svg class="dropdown-toggle" role="menu" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <use href="../assets/svg/icon-sprite.svg#menubar"></use>
+                                </svg>
+                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#!">View details</a><a class="dropdown-item" href="#!">
+                                     Send messages</a><a class="dropdown-item" href="#!">
+                                     Add to favorites</a></div>
+                              </div>
+                            </li>
+                          </ul>
+                          <p>E </p>
+                          <ul class="border-0">
+                            <li class="common-space">
+                              <div class="chat-time"><img class="img-fluid rounded-circle" src="../assets/images/user/1.jpg" alt="user">
+                                <div> <span>Emily Collins</span>
+                                  <p>100-555-7032</p>
+                                </div>
+                              </div>
+                              <div class="contact-edit">
+                                <svg class="dropdown-toggle" role="menu" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <use href="../assets/svg/icon-sprite.svg#menubar"></use>
+                                </svg>
+                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#!">View details</a><a class="dropdown-item" href="#!">
+                                     Send messages</a><a class="dropdown-item" href="#!">
+                                     Add to favorites</a></div>
+                              </div>
+                            </li>
+                          </ul>
+                          <p>F </p>
+                          <ul class="border-0">
+                            <li class="common-space">
+                              <div class="chat-time"><img class="img-fluid rounded-circle" src="../assets/images/user/2.jpg" alt="user">
+                                <div> <span>Fiona Cooper</span>
+                                  <p>362-778-1919</p>
+                                </div>
+                              </div>
+                              <div class="contact-edit">
+                                <svg class="dropdown-toggle" role="menu" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <use href="../assets/svg/icon-sprite.svg#menubar"></use>
+                                </svg>
+                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#!">View details</a><a class="dropdown-item" href="#!">
+                                     Send messages</a><a class="dropdown-item" href="#!">
+                                     Add to favorites</a></div>
+                              </div>
+                            </li>
+                            <li class="common-space">
+                              <div class="chat-time">
+                                <div class="custom-name bg-light-danger">
+                                  <p class="txt-danger f-w-500">FG</p>
+                                </div>
+                                <div> <span>Freya Grayson</span>
+                                  <p>589-789-2563</p>
+                                </div>
+                              </div>
+                              <div class="contact-edit">
+                                <svg class="dropdown-toggle" role="menu" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <use href="../assets/svg/icon-sprite.svg#menubar"></use>
+                                </svg>
+                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#!">View details</a><a class="dropdown-item" href="#!">
+                                     Send messages</a><a class="dropdown-item" href="#!">
+                                     Add to favorites</a></div>
+                              </div>
+                            </li>
+                          </ul>
+                          <p>G</p>
+                          <ul class="border-0"> 
+                            <li class="common-space">
+                              <div class="chat-time">
+                                <div class="custom-name bg-light-warning">
+                                  <p class="txt-warning f-w-500">GE</p>
+                                </div>
+                                <div> <span>Gabriel Evans</span>
+                                  <p>963-147-5024</p>
+                                </div>
+                              </div>
+                              <div class="contact-edit">
+                                <svg class="dropdown-toggle" role="menu" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <use href="../assets/svg/icon-sprite.svg#menubar"></use>
+                                </svg>
+                                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#!">View details</a><a class="dropdown-item" href="#!">
+                                     Send messages</a><a class="dropdown-item" href="#!">
+                                     Add to favorites   </a></div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-9 col-xl-8 col-md-7 box-col-7">
+                <div class="card right-sidebar-chat">
+                  <div class="right-sidebar-title">
+                    <div class="common-space"> 
+                      <div class="chat-time"> 
+                        <div class="active-profile"><img class="img-fluid rounded-circle" src="../assets/images/blog/comment.jpg" alt="user">
+                          <div class="status bg-success"></div>
+                        </div>
+                        <div> <span>Darrell Steward</span>
+                          <p>Online </p>
+                        </div>
+                      </div>
+                      <div class="d-flex gap-2">
+                        <div class="contact-edit chat-alert"><i class="icon-info-alt"></i></div>
+                        <div class="contact-edit chat-alert">
+                          <svg class="dropdown-toggle" role="menu" data-bs-toggle="dropdown" aria-expanded="false">
+                            <use href="../assets/svg/icon-sprite.svg#menubar"></use>
+                          </svg>
+                          <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#!">View details</a><a class="dropdown-item" href="#!">
+                               Send messages</a><a class="dropdown-item" href="#!">
+                               Add to favorites</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="right-sidebar-Chats"> 
+                    <div class="msger">
+                      <div class="msger-chat">
+                        <div class="msg left-msg">
+                          <div class="msg-img"></div>
+                          <div class="msg-bubble">
+                            <div class="msg-info">
+                              <div class="msg-info-name">Theresa Webb</div>
+                              <div class="msg-info-time">01:14 PM</div>
+                            </div>
+                            <div class="msg-text">Hey, I'm looking to redesign my website. Can you help me? &#x1F604;</div>
+                          </div>
+                        </div>
+                        <div class="msg right-msg">
+                          <div class="msg-img"></div>
+                          <div class="msg-bubble">
+                            <div class="msg-info">
+                              <div class="msg-info-name">Darrell Steward</div>
+                              <div class="msg-info-time">12:14 PM</div>
+                            </div>
+                            <div class="msg-text"> Absolutely! I'd be happy to assist you.</div>
+                          </div>
+                        </div>
+                        <div class="msg right-msg">
+                          <div class="msg-img"></div>
+                          <div class="msg-bubble">
+                            <div class="msg-info">
+                              <div class="msg-info-name">Darrell Steward</div>
+                              <div class="msg-info-time">12:14 PM</div>
+                            </div>
+                            <div class="msg-text">What kind of design aesthetic are you aiming for?</div>
+                          </div>
+                        </div>
+                        <div class="msg left-msg">
+                          <div class="msg-img"></div>
+                          <div class="msg-bubble">
+                            <div class="msg-info">
+                              <div class="msg-info-name">Theresa Webb</div>
+                              <div class="msg-info-time">01:14 PM</div>
+                            </div>
+                            <div class="msg-text">I want a clean and modern look with a focus on user experience.</div>
+                          </div>
+                        </div>
+                        <div class="msg right-msg">
+                          <div class="msg-img"></div>
+                          <div class="msg-bubble">
+                            <div class="msg-info">
+                              <div class="msg-info-name">Darrell Steward</div>
+                              <div class="msg-info-time">12:14 PM</div>
+                            </div>
+                            <div class="msg-text">Great!  Do you have any specific color schemes in mind?</div>
+                          </div>
+                        </div>
+                        <div class="msg left-msg">
+                          <div class="msg-img"></div>
+                          <div class="msg-bubble">
+                            <div class="msg-info">
+                              <div class="msg-info-name">Theresa Webb</div>
+                              <div class="msg-info-time">01:14 PM</div>
+                            </div>
+                            <div class="msg-text">I'm thinking of using a combination of blues and grays.</div>
+                          </div>
+                        </div>
+                        <div class="msg right-msg">
+                          <div class="msg-img"></div>
+                          <div class="msg-bubble">
+                            <div class="msg-info">
+                              <div class="msg-info-name">Darrell Steward</div>
+                              <div class="msg-info-time">12:14 PM</div>
+                            </div>
+                            <div class="msg-text">Excellent choice! Those colors can definitely create a professional.</div>
+                          </div>
+                        </div>
+                      </div>
+                      <form class="msger-inputarea">
+                        <div class="dropdown-form dropdown-toggle" role="main" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-plus"></i>
+                          <div class="chat-icon dropdown-menu dropdown-menu-start">
+                            <div class="dropdown-item mb-2">
+                              <svg> 
+                                <use href="../assets/svg/icon-sprite.svg#camera"></use>
+                              </svg>
+                            </div>
+                            <div class="dropdown-item">
+                              <svg> 
+                                <use href="../assets/svg/icon-sprite.svg#attchment"></use>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <input class="msger-input two uk-textarea" type="text" placeholder="Type Message here..">
+                        <div class="open-emoji">
+                          <div class="second-btn uk-button"></div>
+                        </div>
+                        <button class="msger-send-btn" type="submit"><i class="fa fa-location-arrow"></i></button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Container-fluid Ends-->
+        </div>
+        <!-- footer start-->
+        <footer class="footer">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12 footer-copyright d-flex flex-wrap align-items-center justify-content-between">
+                <p class="mb-0 f-w-600">Copyright 2023 © Mofi theme by pixelstrap  </p>
+                <p class="mb-0 f-w-600">Hand crafted & made with
+                  <svg class="footer-icon">
+                    <use href="../assets/svg/icon-sprite.svg#footer-heart"> </use>
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- latest jquery-->
+    <script src="../assets/js/jquery.min.js"></script>
+    <!-- Bootstrap js-->
+    <script src="../assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- feather icon js-->
+    <script src="../assets/js/icons/feather-icon/feather.min.js"></script>
+    <script src="../assets/js/icons/feather-icon/feather-icon.js"></script>
+    <!-- scrollbar js-->
+    <script src="../assets/js/scrollbar/simplebar.js"></script>
+    <script src="../assets/js/scrollbar/custom.js"></script>
+    <!-- Sidebar jquery-->
+    <script src="../assets/js/config.js"></script>
+    <!-- Plugins JS start-->
+    <script src="../assets/js/sidebar-menu.js"></script>
+    <script src="../assets/js/sidebar-pin.js"></script>
+    <script src="../assets/js/slick/slick.min.js"></script>
+    <script src="../assets/js/slick/slick.js"></script>
+    <script src="../assets/js/header-slick.js"></script>
+    <!-- calendar js-->
+    <script src="../assets/js/common-chat.js"></script>
+    <script src="../assets/js/emoji-js/uikit.min.js"></script>
+    <script src="../assets/js/emoji-js/custom-emoji.js"></script>
+    <script src="../assets/js/emoji-js/custom-emojis.js"></script>
+    <!-- Plugins JS Ends-->
+    <!-- Theme js-->
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/theme-customizer/customizer.js"></script>
+    <!-- Plugin used-->
+  </body>
+</html>
