@@ -49162,3 +49162,13 @@ html[dir=rtl] body.dark-only .page-wrapper .page-body-wrapper .page-body .card:n
 .accordion-body {
   padding: 5px;
 }
+
+#chat-data {
+  width: 0;
+  overflow: hidden;
+  transition: width 0.5s;
+}
+
+#chat-data .card {
+  border-radius: 0px 8px 8px 0px;
+}

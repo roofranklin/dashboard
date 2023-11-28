@@ -555,7 +555,7 @@
           <!-- Container-fluid starts-->
           <div class="container-fluid">
             <div class="row g-0">
-              <div class="col-xxl-3 col-xl-3 col-md-5 box-col-5">
+              <div class="col-xxl-3 col-xl-3 col-sm-12">
                 <div class="left-sidebar-wrapper card  chatlist-card">
                   <div class="left-sidebar-chat">
                     <div class="input-group mb-4"><span class="input-group-text"><i class="search-icon text-gray" data-feather="search"></i></span>
@@ -771,7 +771,7 @@
                   </div>                 
                 </div>
               </div>
-              <div class="col-xxl-9 col-xl-9 col-md-7 box-col-7">
+              <div id="chat-messages" class="col-xxl-9 col-xl-9 col-sm-12">
                 <div class="card right-sidebar-chat chatlist-card">
                   <div class="right-sidebar-title">
                     <div class="common-space"> 
@@ -805,8 +805,7 @@
                             <use href="assets/svg/icon-sprite.svg#menubar"></use>
                           </svg>
                           <div class="dropdown-menu dropdown-menu-end">
-                            <a  class="dropdown-item mb-2"
-                                id="c-pills-home-tab" data-bs-toggle="pill" href="#c-pills-home" role="tab" aria-controls="c-pills-home" aria-selected="true" data-original-title=""href="#!">Dados do contato</a>
+                            <a id="open-chat-data" class="dropdown-item mb-2" href="#!">Dados do contato</a>
                             <a class="dropdown-item" href="#!">Recarregar mensagens recentes</a>
                             <a class="dropdown-item" href="#!">Recarregar mensagens antigas (somente texto)</a>
                             <a class="dropdown-item" href="#!">Alterar nome do chat</a>
@@ -917,6 +916,23 @@
                         </div>
                         <button class="msger-send-btn" type="submit"><i class="fa fa-location-arrow"></i></button>
                       </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="chat-data" class="col-xxl-3 col-xl-3 col-sm-12">
+                <div class="card">
+                  <div class="right-sidebar-title">
+                    <div class="common-space"> 
+                      <div class="chat-time"> 
+                        <h3>Dados do contato</h3>
+                      </div>
+                     
+                      <div class="d-flex gap-2">
+                        <a href="#" id="close-chat-data">
+                          <i class="icofont icofont-ui-close"></i>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
