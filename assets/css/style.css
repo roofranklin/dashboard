@@ -49154,3 +49154,11 @@ html[dir=rtl] body.dark-only .page-wrapper .page-body-wrapper .page-body .card:n
   width: 100%;
   text-align: left;
 }
+
+#collapseOne input, #collapseOne input::placeholder, #collapseOne select {
+  font-size: 10px;
+}
+
+.accordion-body {
+  padding: 5px;
+}
