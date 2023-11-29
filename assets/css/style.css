@@ -4488,9 +4488,9 @@ h3 {
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 600;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.3px;
 }
 
 h5 {
@@ -18743,7 +18743,7 @@ p.data-attributes svg {
 }
 .left-sidebar-wrapper .advance-options .chats-user {
   border-bottom: unset;
-  height: 490px;
+  height: 472px;
   overflow-y: auto;
 }
 .left-sidebar-wrapper .advance-options .chats-user li {
@@ -49179,4 +49179,9 @@ html[dir=rtl] body.dark-only .page-wrapper .page-body-wrapper .page-body .card:n
 
 #chat-data i {
   font-size: 0.8em;
+}
+
+.bottom-info-container {
+  height: 720px;
+  overflow-y: scroll;
 }
