@@ -302,6 +302,7 @@
       $("#chat-data").css("width", "33.33333%");
 
       $(".right-sidebar-chat").css("border-top-right-radius", "0");
+      $(".right-sidebar-chat").css("border-bottom-right-radius", "0");
 
       // Adiciona um efeito de slide da direita para a esquerda
       $("#chat-data").show("slide", { direction: "right" }, 500);
@@ -316,6 +317,7 @@
       $("#chat-messages").removeClass("col-xxl-5").addClass("col-xxl-9");
 
       $(".right-sidebar-chat").css("border-top-right-radius", "8px");
+      $(".right-sidebar-chat").css("border-bottom-right-radius", "8px");
 
       // Adiciona um efeito de slide da direita para a esquerda
       $("#chat-data").hide("slide", { direction: "left" }, 500);
