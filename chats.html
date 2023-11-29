@@ -920,18 +920,216 @@
                   </div>
                 </div>
               </div>
-              <div id="chat-data" class="col-xxl-3 col-xl-3 col-sm-12">
+              <div id="chat-data" class="col-xxl-4 col-xl-4 col-sm-12">
                 <div class="card">
                   <div class="right-sidebar-title">
                     <div class="common-space"> 
-                      <div class="chat-time"> 
+                      <div class="chat-time">
+                        <div class="d-flex gap-2">
+                          <a href="#" title="Ocultar dados" id="close-chat-data">
+                            <i style="font-size: 1.5em;" class="icofont icofont-rounded-double-right"></i>
+                          </a>
+                        </div>
                         <h3>Dados do contato</h3>
-                      </div>
-                     
+                      </div>                    
                       <div class="d-flex gap-2">
-                        <a href="#" id="close-chat-data">
+                        <a href="#" title="Fechar Chat">
                           <i class="icofont icofont-ui-close"></i>
                         </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="right-sidebar-chatdata">
+                    <ul class="nav nav-tabs border-tab mb-0" id="bottom-tab" role="tablist">
+                      <li class="nav-item"><a class="nav-link nav-border txt-primary tab-primary active" id="bottom-info-tab" data-bs-toggle="tab" href="#bottom-info" role="tab" aria-controls="bottom-info" aria-selected="true"><i class="icofont icofont-man-in-glasses"> </i></a></li>
+                      <li class="nav-item"><a class="nav-link nav-border txt-primary tab-primary" id="bottom-inbox-tab" data-bs-toggle="tab" href="#bottom-inbox" role="tab" aria-controls="bottom-inbox" aria-selected="false"><i class="icofont icofont-layers"></i></a></li>
+                      <li class="nav-item"><a class="nav-link nav-border txt-primary tab-primary" id="bottom-contact-tab" data-bs-toggle="tab" href="#bottom-contact" role="tab" aria-controls="bottom-contact" aria-selected="false"><i class="icofont icofont-notebook"></i></a></li>
+                      <li class="nav-item"><a class="nav-link nav-border txt-primary tab-primary" id="bottom-home-tab" data-bs-toggle="tab" href="#bottom-home" role="tab" aria-controls="bottom-home" aria-selected="true"><i class="icofont icofont-filter"> </i></a></li>
+                      <li class="nav-item"><a class="nav-link nav-border txt-primary tab-primary" id="bottom-inbox-tab" data-bs-toggle="tab" href="#bottom-inbox" role="tab" aria-controls="bottom-inbox" aria-selected="false"><i class="icofont icofont-users-alt-1"></i></a></li>
+                      <li class="nav-item"><a class="nav-link nav-border txt-primary tab-primary" id="bottom-contact-tab" data-bs-toggle="tab" href="#bottom-contact" role="tab" aria-controls="bottom-contact" aria-selected="false"><i class="icofont icofont-robot"></i></a></li>
+                      <li class="nav-item"><a class="nav-link nav-border txt-primary tab-primary" id="bottom-home-tab" data-bs-toggle="tab" href="#bottom-home" role="tab" aria-controls="bottom-home" aria-selected="true"><i class="icofont icofont-dashboard"> </i></a></li>
+                      <li class="nav-item"><a class="nav-link nav-border txt-primary tab-primary" id="bottom-inbox-tab" data-bs-toggle="tab" href="#bottom-inbox" role="tab" aria-controls="bottom-inbox" aria-selected="false"><i class="icofont icofont-multimedia"></i></a></li>
+                    </ul>
+                    <div class="tab-content" id="bottom-tabContent">
+                      <div class="tab-pane fade show active" id="bottom-info" role="tabpanel" aria-labelledby="bottom-info-tab">
+                        <div class="card-body">
+                          <div class="card-wrapper border rounded-2">
+                            <form class="row g-2">
+                              <div class="col-md-12">
+                                <label class="form-label" for="inputEmail4">Nome:</label>
+                                <a class="chatdata-name" href="#">Darrel Steward</a>
+                                <p>+55 (21) 984425722</p>
+                              </div>
+                              <div class="col-md-12 mt-4">
+                                <label class="form-check-label" for="inputPassword4">
+                                  <i style="font-size: 1.5em;" class="icofont icofont-robot"></i> Chatbot
+                                </label>
+                                <div class="form-check form-switch form-check-inline" style="float: right; margin-top: 6px;">
+                                  <input class="form-check-input check-size" id="flexSwitchCheckDefault2" type="checkbox" role="switch" checked="">
+                                </div>
+                              </div>
+                              <div class="col-md-12">
+                                <label class="form-check-label" for="inputPassword4">
+                                  <i style="font-size: 1.5em;" class="icofont icofont-box"></i> Arquivar
+                                </label>
+                                <div class="form-check form-switch form-check-inline" style="float: right; margin-top: 6px;">
+                                  <input class="form-check-input check-size" id="flexSwitchCheckDefault2" type="checkbox" role="switch" >
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="card-wrapper border rounded-2 mt-2">
+                            <form class="row g-2 mb-4">
+                              <div class="col-md-8">
+                                <h4>Responsável:</h4>
+                              </div>
+                              <div class="col-md-4">
+                                <button class="btn btn-secondary btn-xs p-1" style="float: right;" type="button" title="Adicionar responsável">
+                                  <i style="font-size: 1.3em;" class="icofont icofont-ui-add"></i>
+                                </button> 
+                              </div>
+                              <div class="col-md-12 mt-4 mb-2">
+                                <div class="badge-spacing">
+                                  <span class="badge badge-secondary">John Doe <i style="font-size: 1.1em;" class="icofont icofont-trash"></i></span>
+                                  <span class="badge badge-secondary">Valentina Carrara <i style="font-size: 1.1em;" class="icofont icofont-trash"></i></span>
+                                  <span class="badge badge-secondary">Alexandre Pires <i style="font-size: 1.1em;" class="icofont icofont-trash"></i></span>
+                                  <span class="badge badge-secondary">Ronaldo Nazário <i style="font-size: 1.1em;" class="icofont icofont-trash"></i></span>
+                                  <span class="badge badge-secondary">Queen Latiffa <i style="font-size: 1.1em;" class="icofont icofont-trash"></i></span>
+                                  <span class="badge badge-secondary">German Cano <i style="font-size: 1.1em;" class="icofont icofont-trash"></i></span>
+                                </div>              
+                              </div>                               
+                            </form>
+                          </div>
+                          <div class="card-wrapper border rounded-2 mt-2">
+                            <form class="row g-2 mb-4">
+                              <div class="col-md-8">
+                                <h4>Tags:</h4>
+                              </div>
+                              <div class="col-md-4">
+                                <button class="btn btn-secondary btn-xs p-1" style="float: right;" type="button" title="Criar nova tag">
+                                  <i style="font-size: 1.5em;" class="icofont icofont-tag"></i>
+                                </button> 
+                              </div>
+                              <div class="col-md-12 mt-4 mb-2">
+                                <div class="badge-spacing">
+                                  <span class="badge badge-primary">Vendas</span>
+                                  <span class="badge badge-secondary">Atendimento</span>
+                                  <span class="badge badge-success">Lead</span>
+                                  <span class="badge badge-info">Suporte</span>
+                                  <span class="badge badge-warning text-dark">Financeiro</span>
+                                  <span class="badge badge-danger">Cancelamento</span>
+                                  <span class="badge badge-light text-dark">XPTO</span>
+                                  <span class="badge badge-dark tag-pills-sm-mb">ChatGuru</span> 
+                                </div>              
+                              </div>                               
+                            </form>
+                          </div>
+                          <div class="card-wrapper border rounded-2 mt-2">
+                            <div class="row g-2 mb-2">
+                              <div class="col-md-8">
+                                <h4>Campos personalizados:</h4>
+                              </div>
+                              <div class="col-md-4">
+                                <button class="btn btn-secondary btn-xs p1" title="Gerenciar campos personalizados" style="float: right;" type="button">
+                                  <i style="font-size: 1.5em;" class="icofont icofont-ui-settings"></i>
+                                </button> 
+                              </div>
+                            </div>
+                            <form class="row g-2">
+                              <div class="col-md-12 mt-4 mb-1">
+                                <div class="row g-1 mb-2">
+                                  <label class="col-md-3" for="inputPassword4">
+                                    RG: 
+                                  </label>
+                                  <div class="col-md-9">
+                                    <input class="form-control form-control-sm" id="nome" type="text" />
+                                  </div>
+                                </div>
+                                <div class="row g-1 mb-2">
+                                  <label class="col-md-3" for="inputPassword4">
+                                    CPF/CNPJ: 
+                                  </label>
+                                  <div class="col-md-9">
+                                    <input class="form-control form-control-sm" id="nome" type="text" />
+                                  </div>
+                                </div> 
+                                <div class="row g-1 mb-2">
+                                  <label class="col-md-3" for="inputPassword4">
+                                    Endereço: 
+                                  </label>
+                                  <div class="col-md-9">
+                                    <input class="form-control form-control-sm" id="nome" type="text" />
+                                  </div>
+                                </div>
+                                <div class="row g-1 mb-2">
+                                  <label class="col-md-3" for="inputPassword4">
+                                    E-mail: 
+                                  </label>
+                                  <div class="col-md-9">
+                                    <input class="form-control form-control-sm" id="nome" type="text" />
+                                  </div>
+                                </div>                            
+                              </div>                              
+                            </form>
+                          </div>
+                          <div class="card-wrapper border rounded-2 mt-2">
+                            <form class="row g-2">
+                              <div class="col-md-12">
+                                <h4>Outras informações:</h4>
+                              </div>
+                              <div class="col-md-12 mt-4">
+                                <label class="form-check-label" for="inputPassword4">
+                                  <i style="font-size: 1.5em;" class="icofont icofont-phone"></i> Aparelho de origem: 12105987543
+                                </label>
+                              </div>
+                              <div class="col-md-12">
+                                <label class="form-check-label" for="inputPassword4">
+                                  <i style="font-size: 1.5em;" class="icofont icofont-calendar"></i> Data de Cadastro: 12/12/2022 14:35
+                                </label>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="bottom-inbox" role="tabpanel" aria-labelledby="bottom-inbox-tab">
+                        <div class="card-body pb-0">
+                          <div class="main-inbox"> 
+                            <div class="header-inbox"> 
+                              <div class="header-left-inbox">
+                                <div class="inbox-img"><img src="../assets/images/ecommerce/06.jpg" alt="profile"></div>
+                                <div class="inbox-content"> 
+                                  <h6>Dalbult Caslin </h6>
+                                  <p class="text-muted">stroman.rogers@gmail.com</p>
+                                </div>
+                              </div>
+                              <ul class="header-right-inbox">
+                                <li> 
+                                  <p>8 JAN 11:30PM</p>
+                                </li>
+                                <li> <i class="txt-danger icofont icofont-ui-delete"></i></li>
+                                <li> <i class="icofont icofont-telegram"></i></li>
+                              </ul>
+                            </div>
+                            <div class="body-inbox mt-2">
+                              <div class="body-h-wrapper"><i class="me-2 tab-space icofont icofont-star"></i><em>Compare Prices Find the Best Computer Assessors Fronted Issue.</em></div>
+                              <p class="pt-2">Site speed and design are two of the most important ranking factors Google takes into consideration, as they have the biggest effect of customer staying on site as the website respond faster.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="bottom-contact" role="tabpanel" aria-labelledby="bottom-contact-tab">
+                        <div class="card-body px-0 pb-0"> 
+                          <div class="form"> 
+                            <div class="mb-3">
+                              <label class="form-label" for="exampleFormControltwo">Email address</label>
+                              <input class="form-control" id="exampleFormControltwo" type="email" placeholder="youremail@gmail.com">
+                            </div>
+                            <div class="mb-0">
+                              <label class="form-label" for="exampleFormControlTextarea1">Example textarea</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>

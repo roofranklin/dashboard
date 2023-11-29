@@ -296,10 +296,10 @@
     // Quando a div #open-chat-data for clicada
     $("#open-chat-data").click(function() {
       // Substitui a classe col-xxl-9 pela classe col-xxl-6 na div #chat-messages
-      $("#chat-messages").removeClass("col-xxl-9").addClass("col-xxl-6");
+      $("#chat-messages").removeClass("col-xxl-9").addClass("col-xxl-5");
 
       // Aumenta a largura de 0 para 100% na div #chat-data com um efeito de slide
-      $("#chat-data").css("width", "25%");
+      $("#chat-data").css("width", "33.33333%");
 
       $(".right-sidebar-chat").css("border-top-right-radius", "0");
 
@@ -313,7 +313,7 @@
       $("#chat-data").css("width", "0");
 
       // Substitui a classe col-xxl-9 pela classe col-xxl-6 na div #chat-messages
-      $("#chat-messages").removeClass("col-xxl-6").addClass("col-xxl-9");
+      $("#chat-messages").removeClass("col-xxl-5").addClass("col-xxl-9");
 
       $(".right-sidebar-chat").css("border-top-right-radius", "8px");
 
